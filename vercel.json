@@ -1,4 +1,12 @@
 {
+  "build": {
+    "env": {
+      "HUGO_VERSION": "0.100.2"
+    }
+  },
+  "github": {
+    "silent": true
+  },
     "headers": [
       {
         "source": "/(.*)",
