@@ -40,6 +40,11 @@
 		<link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Philosopher&family=Noto+Serif+SC&family=ZCOOL+XiaoWei&family=Long+Cang&display=swap" />
 	</noscript>
 	<!--[if lt IE 9]><script src="https://cdn.bootcdn.net/ajax/libs/html5shiv/3.7.3/html5shiv.js" /></script><![endif]-->
+	<link rel="stylesheet" href="/assets/css/colors.css" />
+	<link rel="stylesheet" href="/assets/css/styles.css" />
+	<span class="toggle"></span>
+	<span class="wave"></span>
+	<script src="/assets/js/toggle.js"></script>
 	{{ if ne $.Site.LanguageCode "en"}}<!--pangu.js--><script>
 		(function (u, c) {
 			var d = document,
@@ -61,7 +66,7 @@
 <body class="bg-gray-100 text-gray-700 font-sans">
 	<div class="p-6 sm:p-10 md:p-16 flex flex-wrap">
 		<header class="w-full md:w-2/5 xl:w-1/2 md:pr-12 lg:pr-20 xl:pr-24 order-1 md:order-1 max-w-2xl">
-			<div class="z-50 bg-gray-100 bg-opacity-75 bg-opacity-custom lg:min-w-0.7 max-w-xl md:float-right md:text-right leading-loose tracking-tight md:sticky md:top-0 pt-2">
+			<div class="z-50 bg-opacity-75 bg-opacity-custom lg:min-w-0.7 max-w-xl md:float-right md:text-right leading-loose tracking-tight md:sticky md:top-0 pt-2">
 				{{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
 			</div>
 		</header>

@@ -1,11 +1,11 @@
 # Zhu8.Net
-Source of https://zhu8.net/
+Source of https://leotrack.github.io/
 
 ## About **Zhu8**
 
-Visit My Homepage **@** **[Zhu8.Net](https://zhu8.net/)**  (_🐽🎱 Powered By **Hugo** in **Chinese**._)
+Visit My Homepage **@** **[Zhu8.Net](https://leotrack.github.io/)**  (_🐽🎱 Powered By **Hugo** in **Chinese**._)
 
-More **Contact** info 📬 **@** [About Zhu8.Net](https://zhu8.net/about/ "About Zhu8")
+More **Contact** info 📬 **@** [About Zhu8.Net](https://leotrack.github.io/about/ "About Zhu8")
   
 ```json
 {

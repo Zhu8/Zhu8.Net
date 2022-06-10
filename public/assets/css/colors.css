@@ -1,0 +1,18 @@
+html {
+    --background: #212121;
+    --box-shadow: #000;
+    --text: #FFF;
+    --text-faded: #080808;
+    --badge-background: #e2ff82;
+    --badge-color: #0B81D0;
+}
+
+.theme-dark {
+    --background: #FFF;
+    --box-shadow: #CCC;
+    --text: #212121;
+    --text-faded: rgba(160, 174, 192, var(--tw-text-opacity));
+    --tw-text-opacity: 1;
+    --badge-background: #FFDA44;
+    --badge-color: #d35400;
+}

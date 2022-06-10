@@ -2,4 +2,4 @@ RewriteEngine on
 # Redirect Entire Site to New Domain
 RewriteCond %{HTTP_HOST} ^zhu8.net$ [NC,OR]
 RewriteCond %{HTTP_HOST} ^www.zhu8.net$ [NC]
-RewriteRule ^(.*)$ https://zhu8.net/$1 [R=301,L]
+RewriteRule ^(.*)$ https://leotrack.github.io/$1 [R=301,L]

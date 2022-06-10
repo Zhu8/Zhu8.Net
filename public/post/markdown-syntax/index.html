@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="author" content="Zhu8" />
+	<meta name="generator" content="Hugo 0.100.1" />
+	<meta name="description" content="Sample article showcasing basic Markdown syntax and formatting for HTML elements." />
+	<meta name="keywords" content="markdown, css, html, themes" />
+	<meta name="robots" content="index, follow" />
+	<meta name="revised" content="Zhu8, 2019-03-11" />
+	<meta name="copyright" content="Zhu8.Net 🚀 [CC BY-SA], All Rights Reserved." />
+	<meta name="msapplication-TileColor" content="#da532c" />
+	<meta name="theme-color" content="#ffffff" />
+	<title>Markdown Syntax Guide | 猪八的网：浮生志</title>
+	<link type="text/css" rel="stylesheet" href="https://leotrack.github.io/dist/app.css" media="all" />
+	<link rel="shortcut icon" href="https://leotrack.github.io/favicon.ico" type="image/x-icon" />
+	<link rel="apple-touch-icon" sizes="180x180" href="https://leotrack.github.io/apple-touch-icon.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="https://leotrack.github.io/favicon-32x32.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="https://leotrack.github.io/favicon-16x16.png" />
+	<link rel="manifest" href="https://leotrack.github.io/site.webmanifest" />
+	<link rel="mask-icon" href="https://leotrack.github.io/safari-pinned-tab.svg" color="#5bbad5" />
+	
+	<script src="https://unpkg.com/@waline/client/dist/waline.js"></script>
+	<link type="text/css" rel="stylesheet" href="https://unpkg.com/@waline/client/dist/waline.css" />
+	<link type="text/css" rel="stylesheet" href="https://leotrack.github.io/assets/css/custom.css" media="all" />
+	<link type="text/css" rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/5.15.4/css/all.min.css" media="all" />
+	<link rel=preconnect href=https://fonts.gstatic.com crossorigin>
+	<link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Philosopher&family=Noto+Serif+SC&family=ZCOOL+XiaoWei&family=Long+Cang&display=swap" media=print onload='this.media="all"' />
+	<noscript>
+		<link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Philosopher&family=Noto+Serif+SC&family=ZCOOL+XiaoWei&family=Long+Cang&display=swap" />
+	</noscript>
+	
+	<link rel="stylesheet" href="https://leotrack.github.io/assets/css/colors.css" />
+	<link rel="stylesheet" href="https://leotrack.github.io/assets/css/styles.css" />
+	<span class="toggle"></span>
+	<span class="wave"></span>
+	<script src="https://leotrack.github.io/assets/js/toggle.js"></script>
+	<script>
+		(function (u, c) {
+			var d = document,
+				t = 'script',
+				o = d.createElement(t),
+				s = d.getElementsByTagName(t)[0];
+			o.src = u;
+			if (c) {
+				o.addEventListener('load', function (e) {
+					c(e);
+				});
+			}
+			s.parentNode.insertBefore(o, s);
+		})('https:\/\/leotrack.github.io\/lib\/pangu.min.js', function () {
+			pangu.spacingPage();
+		});
+	</script>
+</head>
+<body class="bg-gray-100 text-gray-700 font-sans">
+	<div class="p-6 sm:p-10 md:p-16 flex flex-wrap">
+		<header class="w-full md:w-2/5 xl:w-1/2 md:pr-12 lg:pr-20 xl:pr-24 order-1 md:order-1 max-w-2xl">
+			<div class="z-50 bg-opacity-75 bg-opacity-custom lg:min-w-0.7 max-w-xl md:float-right md:text-right leading-loose tracking-tight md:sticky md:top-0 pt-2">
+				 <div>
+	<h1>
+		<a href="https://leotrack.github.io/" title="猪八的网：浮生志" class="heading font-cursive icon">猪八的网：浮生志</a>
+	</h1>
+</div>
+<h2 class="pt-2">
+	<i class="far fa-bookmark"></i>Markdown Syntax Guide</h2>
+<div class="flex flex-wrap justify-end pt-2 "><div class="md:flex-grow-0 font-light">
+	<i class="fas fa-folder-open"></i>     <a class="post-taxonomy-category text-medium-red-violet-600 hover:text-medium-red-violet-400" href='https://leotrack.github.io/categories/themes/'>themes</a>&nbsp;&#47;  <a class="post-taxonomy-category text-medium-red-violet-600 hover:text-medium-red-violet-400" href='https://leotrack.github.io/categories/syntax/'>syntax</a>   
+	 &nbsp;&nbsp; 
+	<i class="fas fa-tags"></i>  	 	 	 	<a class="post-taxonomy-tag text-eucalyptus-500" href='https://leotrack.github.io/tags/markdown/'>markdown</a>&nbsp;&#47; 	 	<a class="post-taxonomy-tag text-eucalyptus-500" href='https://leotrack.github.io/tags/css/'>css</a>&nbsp;&#47; 	 	<a class="post-taxonomy-tag text-eucalyptus-500" href='https://leotrack.github.io/tags/html/'>html</a>&nbsp;&#47; 	 	<a class="post-taxonomy-tag text-eucalyptus-500" href='https://leotrack.github.io/tags/themes/'>themes</a> 	 	 	
+</div><time class="text-eucalyptus-500 md:text-right md:flex-grow font-light pl-4" datetime="2019-03-11T00:00:00Z">
+		<i class="fas fa-calendar-day"></i>2019-03-11 00:00 @ Mon</time>
+</div>
+<span class="a-gray text-md text-gray-500 leading-relaxed pt-2"><i class="fas fa-info"></i> 全文共 445 字，阅读需 <i class="fas fa-stopwatch"></i>  <span class="more-meta">2 分&nbsp;1 second</span></span>
+
+<details class="toc" open>
+<summary>
+</summary>
+<div class="inline toc-content">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#h3">H3</a>
+      <ul>
+        <li><a href="#h4">H4</a>
+          <ul>
+            <li><a href="#h5">H5</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#blockquote-without-attribution">Blockquote without attribution</a></li>
+        <li><a href="#blockquote-with-attribution">Blockquote with attribution</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#inline-markdown-within-tables">Inline Markdown within tables</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#code-block-with-backticks">Code block with backticks</a></li>
+        <li><a href="#code-block-indented-with-four-spaces">Code block indented with four spaces</a></li>
+        <li><a href="#code-block-with-hugos-internal-highlight-shortcode">Code block with Hugo&rsquo;s internal highlight shortcode</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#ordered-list">Ordered List</a></li>
+        <li><a href="#unordered-list">Unordered List</a></li>
+        <li><a href="#nested-list">Nested list</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+</details>
+<hr /> 
+			</div>
+		</header>
+		<main class="w-full md:w-3/5 xl:w-1/2 max-w-3xl order-2 md:order-2 min-h-70vh pt-2 pb-4">
+			
+
+<article>
+	<div class="mx-auto content">
+		<div class="c-rich-text"><p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.</p>
+<h2 id="headings">Headings</h2>
+<p>The following HTML <code>&lt;h1&gt;</code>—<code>&lt;h6&gt;</code> elements represent six levels of section headings. <code>&lt;h1&gt;</code> is the highest section level while <code>&lt;h6&gt;</code> is the lowest.</p>
+<h1 id="h1">H1</h1>
+<h2 id="h2">H2</h2>
+<h3 id="h3">H3</h3>
+<h4 id="h4">H4</h4>
+<h5 id="h5">H5</h5>
+<h6 id="h6">H6</h6>
+<h2 id="paragraph">Paragraph</h2>
+<p>Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.</p>
+<p>Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.</p>
+<h2 id="blockquotes">Blockquotes</h2>
+<p>The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a <code>footer</code> or <code>cite</code> element, and optionally with in-line changes such as annotations and abbreviations.</p>
+<h4 id="blockquote-without-attribution">Blockquote without attribution</h4>
+<blockquote>
+<p>Tiam, ad mint andaepu dandae nostion secatur sequo quae.
+<strong>Note</strong> that you can use <em>Markdown syntax</em> within a blockquote.</p>
+</blockquote>
+<h4 id="blockquote-with-attribution">Blockquote with attribution</h4>
+<blockquote>
+<p>Don&rsquo;t communicate by sharing memory, share memory by communicating.</p>
+— <cite>Rob Pike<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></cite></p>
+</blockquote>
+<h2 id="tables">Tables</h2>
+<p>Tables aren&rsquo;t part of the core Markdown spec, but Hugo supports supports them out-of-the-box.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Age</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bob</td>
+<td>27</td>
+</tr>
+<tr>
+<td>Alice</td>
+<td>23</td>
+</tr>
+</tbody>
+</table>
+<h4 id="inline-markdown-within-tables">Inline Markdown within tables</h4>
+<table>
+<thead>
+<tr>
+<th>Inline   </th>
+<th>Markdown   </th>
+<th>In   </th>
+<th>Table</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>italics</em></td>
+<td><strong>bold</strong></td>
+<td><del>strikethrough</del>   </td>
+<td><code>code</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="code-blocks">Code Blocks</h2>
+<h4 id="code-block-with-backticks">Code block with backticks</h4>
+<pre tabindex="0"><code>html
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&#34;en&#34;&gt;
+&lt;head&gt;
+  &lt;meta charset=&#34;UTF-8&#34;&gt;
+  &lt;title&gt;Example HTML5 Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p&gt;Test&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre><h4 id="code-block-indented-with-four-spaces">Code block indented with four spaces</h4>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;title&gt;Example HTML5 Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p&gt;Test&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<h4 id="code-block-with-hugos-internal-highlight-shortcode">Code block with Hugo&rsquo;s internal highlight shortcode</h4>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#999;font-weight:bold;font-style:italic">&lt;!DOCTYPE html&gt;</span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#000080">html</span> <span style="color:#008080">lang</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;en&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#000080">head</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#000080">meta</span> <span style="color:#008080">charset</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;UTF-8&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#000080">title</span>&gt;Example HTML5 Document&lt;/<span style="color:#000080">title</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#000080">head</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#000080">body</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#000080">p</span>&gt;Test&lt;/<span style="color:#000080">p</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#000080">body</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#000080">html</span>&gt;</span></span></code></pre></div>
+<h2 id="list-types">List Types</h2>
+<h4 id="ordered-list">Ordered List</h4>
+<ol>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+</ol>
+<h4 id="unordered-list">Unordered List</h4>
+<ul>
+<li>List item</li>
+<li>Another item</li>
+<li>And another item</li>
+</ul>
+<h4 id="nested-list">Nested list</h4>
+<ul>
+<li>Item</li>
+</ul>
+<ol>
+<li>First Sub-item</li>
+<li>Second Sub-item</li>
+</ol>
+<h2 id="other-elements--abbr-sub-sup-kbd-mark">Other Elements — abbr, sub, sup, kbd, mark</h2>
+<p><abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.</p>
+<p>H<sub>2</sub>O</p>
+<p>X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup></p>
+<p>Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.</p>
+<p>Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>The above quote is excerpted from Rob Pike&rsquo;s <a href="https://www.youtube.com/watch?v=PAAkCSZUG1c">talk</a> during Gopherfest, November 18, 2015.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div></div>
+	</div>
+</article>
+		</main>
+		<div class="w-full h-0 flex-none order-3"></div>
+		<aside class="w-full md:w-2/5 xl:w-1/2 md:pr-12 lg:pr-20 xl:pr-24 order-4 md:order-3 md:sticky md:bottom-0 self-end max-w-2xl">
+			<div class="md:float-right md:text-right leading-loose tracking-tight md:mb-2">
+				 <div class="md:max-w-xs  flex flex-col md:items-end">
+	<ul class="font-serif flex-grow-0 flex justify-between flex-wrap md:flex-col">
+	 
+	<li class="px-1 md:px-0">
+		<a href="https://leotrack.github.io/blog/" title="Go to Blog § 「日志」" >Blog § 「日志」  <i class="fas fa-book"></i></a>
+	</li> 
+	<li class="px-1 md:px-0">
+		<a href="https://leotrack.github.io/about/" title="Go to About § 「关于」" >About § 「关于」  <i class="fas fa-address-book"></i></a>
+	</li> 
+	<li class="px-1 md:px-0">
+		<a href="https://leotrack.github.io/links/" title="Go to Links § 「链接」" >Links § 「链接」  <i class="fas fa-link"></i></a>
+	</li> 
+	<li class="px-1 md:px-0">
+		<a href="https://leotrack.github.io/project/" title="Go to Project § 「项目」" >Project § 「项目」  <i class="fas fa-poo"></i></a>
+	</li> 
+	<li class="px-1 md:px-0">
+		<a href="https://leotrack.github.io/categories/" title="Go to Categories § 「分类」" >Categories § 「分类」  <i class="fas fa-th-list"></i></a>
+	</li> 
+	<li class="px-1 md:px-0">
+		<a href="https://leotrack.github.io/tags/" title="Go to Tags § 「标签」" >Tags § 「标签」  <i class="fas fa-tag"></i></a>
+	</li> 
+	<li class="px-1 md:px-0">
+		<a href="https://leotrack.github.io/index.xml" title="Go to RSS § 「订阅」" >RSS § 「订阅」  <i class="fas fa-rss"></i></a>
+	</li>  
+	
+	<li id="fastSearch" class="m-0">
+		<input id="searchInput" type="text" size=10 class="bg-gray-100 focus:outline-none border-b border-gray-100 focus:border-eucalyptus-300 md:text-right placeholder-java-500 min-w-0 max-w-xxxs" placeholder="Type, Search!" /><i class="fas fa-search"></i>
+		<ul id="searchResults" class="bg-gray-200 px-2 divide-y divide-gray-400"> </ul>
+	</li> 
+</ul>
+	<div id="random-images"></div>
+	<div class="font-medium text-xl flex flex-wrap-reverse">
+  <a href="https://twitter.com/5CJ" aria-label="Twitter"  title="View My Twitter"><i id="twitter-ic" class="fab fa-twitter" aria-hidden="true"></i></a>  
+  <a href="https://facebook.com/ichenjun" aria-label="Facebook"  title="View My Facebook"><i id="facebook-ic" class="fab fa-facebook" aria-hidden="true"></i></a> 
+  <a href="https://weibo.com/zhu8" aria-label="Weibo"  title="View My Weibo"><i id="weibo-ic" class="fab fa-weibo" aria-hidden="true"></i></a>  
+  <a href="https://github.com/zhu8" aria-label="Github"  title="View My GitHub"><i id="github-ic" class="fab fa-github" aria-hidden="true"></i></a>  
+  <a href="https://instagram.com/5CJ" aria-label="Instagram"  title="View My Instagram"><i id="instagram-ic" class="fab fa-instagram" aria-hidden="true"></i></a>  
+  <a href="https://zhu8.tumblr.com" aria-label="Tumblr"  title="View My Tumblr"><i id="tumblr-ic" class="fab fa-tumblr-square" aria-hidden="true"></i></a>  
+</div>
+	<div class="text-sm text-gray-500 leading-tight a-gray">
+		
+		<i class="fas fa-paint-roller"></i>Life is Colorful, Just PAINT.<br />
+		<i class="fas fa-code-branch"></i>Theme with <a href="https://github.com/heyeshuang/hugo-theme-tokiwa">Tokiwa</a>, Powered by <a href="https://gohugo.io"><span style="color:#f40083">H</span><span style="color:#246dd6">U</span><span style="color:#4dc47d">G</span><span style="color:#fcb643">O</span></a>.<br />
+		
+		<i class="fas fa-copyright"></i>2004-2022 &sect; Zhu8.Net 🚀 [<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">CC BY-SA</a>].
+	</div>
+</div> 
+			</div>
+		</aside>
+		<footer class="w-full md:w-3/5 xl:w-1/2 order-3 max-w-3xl md:order-4 pt-2">
+			 
+<div class="a-gray text-sm text-gray-500 leading-tight pb-6"><i class="fas fa-pencil-alt"></i> LastMod @ <em>2019-03-11</em> & Pageviews: <i class="waline-pageview-count"></i></div>
+<hr class="double-line" />
+<div class="flex flex-wrap justify-between pb-2 leading-loose font-serif">
+    
+    <a class="flex-grow-0" href="https://leotrack.github.io/post/placeholder-text/">
+        <svg class="fill-current inline-block h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+            <path fill="none" d="M0 0h24v24H0z" />
+            <path d="M7.828 11H20v2H7.828l5.364 5.364-1.414 1.414L4 12l7.778-7.778 1.414 1.414z" />
+        </svg> Placeholder Text </a> 
+    
+    <a class="flex-grow-0" href="https://leotrack.github.io/archives/"> 
+        <svg class="fill-current inline-block h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+            <path fill="none" d="M0 0h24v24H0z" />
+            <path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" />
+        </svg></a> 
+</div>
+<div>
+<div class="font-serif pb-2 flex align-start leading-loose">
+    <span class="heading pr-6 leading-loose">Related Post(s):</span>
+        <ul id="related">
+            <li>
+                <a href="https://leotrack.github.io/post/placeholder-text/">Placeholder Text</a>
+                &ndash;
+                <time class="md:text-right md:flex-grow" datetime="2019-03-09T00:00:00Z">2019-3-9</time>
+            </li>
+        </ul>
+    </div>
+
+</div>
+<hr />
+<div class="pb-2">
+    
+
+<div class="comments">
+  <div id="waline"></div>
+  <script>
+    Waline.init({
+      el:'#waline',
+      serverURL:'https://comm.zhu8.net',
+      visitor:true,
+      pageview:true,
+      imageUploader:false,
+      avatar:'robohash',
+      uploadImage:false,
+      placeholder:'欢迎留下您的足迹~~【昵称及邮件为必填项】',
+      requiredMeta:['nick', 'mail'],
+      gif:false,
+      emoji:[
+      'https://leotrack.github.io/images/dora_gif/',
+      'https://leotrack.github.io/images/ani_dora/',
+      'https://leotrack.github.io/images/dora_emotion/',
+      'https://leotrack.github.io/images/dora_sticker/',
+      'https://leotrack.github.io/images/smilies/',      
+    ],
+    });
+  </script>
+</div>
+</div>
+<hr /> 
+		</footer>
+		
+
+<script src="https://cdn.staticfile.org/jquery/3.6.0/jquery.min.js"></script>
+<script>
+      
+      (window.jQuery)||document.write('<script src="//ajax.aspnetcdn.com/ajax/jquery/jquery-3.6.0.min.js"><\/script>');
+</script>
+<script src="https://leotrack.github.io/assets/js/go-top.js"></script>
+<script src="https://leotrack.github.io/assets/js/random-images.js"></script>
+<script src="https://leotrack.github.io/dist/app.js"></script>
+<script src="https://leotrack.github.io/lib/fuse.min.js"></script>
+<script src="https://leotrack.github.io/lib/fastsearch.js"></script>
+	</div>
+</body>
+</html>
