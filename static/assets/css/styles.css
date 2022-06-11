@@ -20,6 +20,9 @@ ul,
   color     : var(--text-faded) !important;
   background: transparent !important;
 }
+
+.theme-dark a{color:#459cf3;}
+
 .wrapper span {
   font-style : italic;
   font-family: sans-serif;
