@@ -1,84 +1,96 @@
 .wrapper {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 20px;
-    background: var(--background);
-    color: var(--text);
-    border-radius: 5px;
-    box-shadow: 0 3px 0 0 var(--box-shadow);
-    transition: all .3s cubic-bezier(0.4, 0.0, 0.2, 1);
+  position     : absolute;
+  top          : 50%;
+  left         : 50%;
+  transform    : translate(-50%, -50%);
+  padding      : 20px;
+  background   : var(--background);
+  color        : var(--text);
+  border-radius: 5px;
+  box-shadow   : 0 3px 0 0 var(--box-shadow);
+  transition   : all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.theme-dark main, ul, li, [class^='wl-'], p, span, label {
-    color: var(--text-faded) !important;
-    background: transparent !important;
+.theme-dark main,
+[class^="wl-"],
+p,
+label,
+li,
+ul {
+  color     : var(--text-faded) !important;
+  background: transparent !important;
 }
-
 .wrapper span {
-    font-style: italic;
-    font-family: sans-serif;
-    font-size: 14px;
+  font-style : italic;
+  font-family: sans-serif;
+  font-size  : 14px;
 }
-
-.theme-dark pre, th, code, kbd, hr.double-line:after, .wl-panel, #fastSearch input{
-    background: rgba(105, 105, 105, var(--tw-bg-opacity)) !important;
-    --tw-bg-opacity: 0.1 !important;
+#fastSearch input,
+.theme-dark pre,
+.wl-panel,
+code,
+hr.double-line:after,
+kbd,
+th {
+  background     : rgba(105, 105, 105, var(--tw-bg-opacity)) !important;
+  --tw-bg-opacity: 0.1 !important;
 }
-
-h1, h2, h3, h4, h5, h6{color: var(--badge-color);}
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--badge-color);
+}
 strong {
-    display: auto;
-    background: var(--badge-background);
-    padding: 2px;
-    border-radius: 2px;
-    color: var(--badge-color);
+  display      : auto;
+  background   : var(--badge-background);
+  padding      : 2px;
+  border-radius: 2px;
+  color        : var(--badge-color);
 }
-
 /* ------------ ☀️ / 🌒 Switch Toggle ------------ */
 .toggle {
-    position: fixed;
-    cursor: pointer;
-    bottom: 80px;
-    right: 25px;
-    font-size: 150%;
+  position : fixed;
+  cursor   : pointer;
+  bottom   : 80px;
+  right    : 25px;
+  font-size: 150%;
 }
-
 .toggle:before {
-    content: '🔆';
+  content: "🔆";
 }
-
 .toggle.active:before {
-    content: '🌒';
+  content: "🌒";
 }
-
 .toggle.animate {
-    animation: animate .3s cubic-bezier(0.4, 0.0, 0.2, 1);
+  animation: animate 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 /* ------------ 🌊 wave effect ------------ */
 .wave {
-    position: absolute;
-    bottom: 96px;
-    right: 36px;
-    border-radius: 100%;
-    width: 2px;
-    height: 2px;
-    display: block;
-    z-index: -1;
-    box-shadow: 0 0 0 0 #22272e;
-    transition: box-shadow .3s cubic-bezier(0.4, 0.0, 0.2, 1);
+  position     : absolute;
+  bottom       : 96px;
+  right        : 36px;
+  border-radius: 100%;
+  width        : 2px;
+  height       : 2px;
+  display      : block;
+  z-index      : -1;
+  box-shadow   : 0 0 0 0 #22272e;
+  transition   : box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .wave.active {
-    background: #000000;
-    box-shadow: 0 0 0 9999px #22272e;
+  background: #000000;
+  box-shadow: 0 0 0 9999px #22272e;
 }
-
 @keyframes animate {
-    0%   { transform: scale(1); }
-    50%  { transform: scale(0); }
-    100% { transform: scale(1); }
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
 }

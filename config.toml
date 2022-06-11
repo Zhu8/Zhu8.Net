@@ -21,12 +21,6 @@ publishDir = "docs"
 [markup]
   [markup.highlight]
   style = "github"
-  [markup.goldmark.renderer]
-  unsafe = true
-  [markup.tableOfContents]
-    startLevel = 3
-    endLevel = 5
-    ordered = false
 
 [params]
   math = false

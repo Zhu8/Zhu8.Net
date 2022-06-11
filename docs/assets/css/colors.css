@@ -1,18 +1,17 @@
 html {
-    --background: #787777;
-    --box-shadow: #1b2701;
-    --text: #FFF;
-    --text-faded: #080808;
-    --badge-background: rgba(0,0,0,.1);
-    --badge-color: #0B81D0;
+  --background      : #787777;
+  --box-shadow      : #1b2701;
+  --text            : #fff;
+  --text-faded      : #080808;
+  --badge-background: rgba(0, 0, 0, 0.1);
+  --badge-color     : #0b81d0;
 }
-
 .theme-dark {
-    --background: #FFF;
-    --box-shadow: #CCC;
-    --text: #212121;
-    --text-faded: rgba(160, 174, 192, var(--tw-text-opacity));
-    --tw-text-opacity: 1;
-    --badge-background: rgba(0, 0, 0, 0.32);
-    --badge-color: #689e4b;
+  --background      : #fff;
+  --box-shadow      : #ccc;
+  --text            : #212121;
+  --text-faded      : rgba(160, 174, 192, var(--tw-text-opacity));
+  --tw-text-opacity : 1;
+  --badge-background: rgba(0, 0, 0, 0.32);
+  --badge-color     : #689e4b;
 }
