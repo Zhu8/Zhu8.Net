@@ -54,13 +54,13 @@ publishDir = "docs"
   showRelatedPosts = true
   summaryLength = 140
   enableGitInfo = true
-  gitRepo = "https://github.com/leotrack/leotrack.github.io"
+  gitRepo = "https://github.com/zhu8/zhu8.net"
   # 是否开启
   enablePostGitInfo = true
   displayPostGitInfo = true
       # 说明：文章的 Front Matter 中的 `gitinfo`
-  repoURL = "https://github.com/leotrack/leotrack.github.io/blob/master"
-  repoEditURL = "https://github.com/leotrack/leotrack.github.io/edit/master"
+  repoURL = "https://github.com/zhu8/zhu8.net/blob/master"
+  repoEditURL = "https://github.com/zhu8/zhu8.net/edit/master"
   displayRAW = true
   RAWText = "MD"
   displayEditLink = true
