@@ -10,6 +10,13 @@ preserveTaxonomyNames = true
 hasCJKLanguage = true
 enableInlineShortcodes = true
 author = "Zhu8"
+publishdir = "docs"
+
+[frontmatter]
+  date = ['date', 'publishDate', 'lastmod']
+  expiryDate = ['expiryDate']
+  lastmod = [':git', 'lastmod', 'date', 'publishDate']
+  publishDate = ['publishDate', 'date']
 
 [markup]
   [markup.highlight]
@@ -46,8 +53,18 @@ author = "Zhu8"
   keywords = ['陈俊', 'ChenJun', 'Chen Jun', '猪八', 'Zhu8', '个人网站', 'chenjun.com', 'zhu8.net', 'Doraemon', '王小波', 'Hugo']
   showRelatedPosts = true
   summaryLength = 140
-  twitterCards = true
-  openGraph = true
+  enableGitInfo = true
+  gitRepo = "https://github.com/leotrack/leotrack.github.io"
+  # 是否开启
+  enablePostGitInfo = true
+  displayPostGitInfo = true
+      # 说明：文章的 Front Matter 中的 `gitinfo`
+  repoURL = "https://github.com/leotrack/leotrack.github.io/blob/master"
+  repoEditURL = "https://github.com/leotrack/leotrack.github.io/edit/master"
+  displayRAW = true
+  RAWText = "MD"
+  displayEditLink = true
+  editText = "Edit Me?"
 
 [permalinks]
   posts = "/blog/:year/:month/:slug/"
