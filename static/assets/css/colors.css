@@ -1,6 +1,6 @@
 html {
-    --background: #212121;
-    --box-shadow: #000;
+    --background: #22272e;
+    --box-shadow: #5c5925;
     --text: #FFF;
     --text-faded: #080808;
     --badge-background: #e2ff82;
@@ -14,5 +14,5 @@ html {
     --text-faded: rgba(160, 174, 192, var(--tw-text-opacity));
     --tw-text-opacity: 1;
     --badge-background: #FFDA44;
-    --badge-color: #d35400;
+    --badge-color: #9ab445;
 }

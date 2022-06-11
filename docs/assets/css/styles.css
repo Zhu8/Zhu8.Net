@@ -21,9 +21,11 @@
     font-size: 14px;
 }
 .theme-dark pre, .theme-dark th, .theme-dark code, .theme-dark kbd, .theme-dark hr.double-line:after, .theme-dark .wl-panel, .theme-dark #fastSearch input {
-    background: rgba(105, 105, 105, var(--tw-bg-opacity)) !important;
+    background: rgba(54, 65, 105, var(--tw-bg-opacity)) !important;
     --tw-bg-opacity: 0.1 !important;
 }
+
+h1, h2, h3, h4, h5, h6{color: var(--badge-color);}
 
 strong {
     display: auto;
@@ -57,20 +59,20 @@ strong {
 /* ------------ 🌊 wave effect ------------ */
 .wave {
     position: absolute;
-    top: 96px;
+    bottom: 96px;
     right: 36px;
     border-radius: 100%;
     width: 2px;
     height: 2px;
     display: block;
     z-index: -1;
-    box-shadow: 0 0 0 0 #212121;
+    box-shadow: 0 0 0 0 #22272e;
     transition: box-shadow .3s cubic-bezier(0.4, 0.0, 0.2, 1);
 }
 
 .wave.active {
-    background: #212121;
-    box-shadow: 0 0 0 9999px #212121;
+    background: #677853;
+    box-shadow: 0 0 0 9999px #22272e;
 }
 
 @keyframes animate {
