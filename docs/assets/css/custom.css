@@ -11,25 +11,25 @@
 .fa-book{color:#ff4500}
 .fa-address-book{color:#a6b1b7}
 .fa-tag,.fa-tags{color:#ff9900}
-.fa-th-list,.fa-folder-open{color:#03a5f0}
+.fa-th-list,.fa-folder-open,.fa-telegram{color:#03a5f0}
 .fa-rss{color:#f06d1b}
 .fa-stopwatch{color:#6c4c49}
 .fa-pencil-alt{color:#db4437}
 .fa-angle-double-left{color:#df6d46}
 .fa-angle-double-right{color:#52b1b3}
-.fa-link{color:#34a853}
+.fa-link, .fa-evernote{color:#34a853}
 .fa-poo{color:#4a154b}
 .fa-search{color:#ade21d}
 .c-rich-text p{text-indent:2rem}
 .c-rich-text blockquote p{text-indent:0}
 .highlight pre{word-break:break-all}
-#twitter-ic,#twitter-ic:hover,#twitter-ic:focus{color:#00aced !important}
-#tumblr-ic,#tumblr-ic:hover,#tumblr-ic:focus{color:#35465d !important}
-#instagram-ic,#instagram-ic:hover,#instagram-ic:focus{color:#c32aa3 !important}
-#weibo-ic,#weibo-ic:hover,#weibo-ic:focus{color:#E6162D !important}
-#facebook-ic,#facebook-ic:hover,#facebook-ic:focus{color:#3B5998 !important}
-#github-ic,#github-ic:hover,#github-ic:focus{color:#333333 !important}
-#gitlab-ic,#gitlab-ic:hover,#gitlab-ic:focus{color:#FC6D27 !important}
+#twitter-ic, .fa-twitter{color:#00aced !important}
+#tumblr-ic{color:#35465d !important}
+#instagram-ic{color:#c32aa3 !important}
+#weibo-ic, .fa-weibo{color:#E6162D !important}
+#facebook-ic, .fa-facebook{color:#3B5998 !important}
+#github-ic{color:#333333 !important}
+.fa-reddit{color:#FC6D27 !important}
 #fastSearch input{width:100%;height:2.5rem;padding-right:0.25rem;margin:0 0 0.5rem -2rem;border:0.125rem solid #ffaac2;border-radius:0.5rem;outline:none;background:#e3f9da;color:#9E9C9C}
 img#dora-three{width:auto;height:auto}
 img.trans{box-shadow:none !important;--tw-shadow:none !important}
@@ -51,7 +51,7 @@ a.heading.font-cursive.icon{padding-right:2.25rem;background-image:url("/images/
 #random-images{position:relative;top:0;left:0;width:80%;height:80%}
 .post-share{display:inline-block;font-size:1rem;margin-bottom:20px}
 .post-share a{text-decoration:none;padding:0}
-.fa-share-square{color:#800287 !important}
+.fa-share-square{color:#768118 !important}
 .fa-weixin{color:green !important}
 #gitinfo{padding-top:3px;float:right;display:inline-block}
 .post-share i,.post-share span{opacity:.5}

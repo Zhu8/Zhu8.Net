@@ -11,8 +11,9 @@
     transition: all .3s cubic-bezier(0.4, 0.0, 0.2, 1);
 }
 
-.theme-dark main, ul, li, [class^='wl-'], p, span {
+.theme-dark main, ul, li, [class^='wl-'], p, span, label {
     color: var(--text-faded) !important;
+    background: transparent !important;
 }
 
 .wrapper span {
@@ -20,6 +21,7 @@
     font-family: sans-serif;
     font-size: 14px;
 }
+
 .theme-dark pre, th, code, kbd, hr.double-line:after, .wl-panel, #fastSearch input{
     background: rgba(105, 105, 105, var(--tw-bg-opacity)) !important;
     --tw-bg-opacity: 0.1 !important;
