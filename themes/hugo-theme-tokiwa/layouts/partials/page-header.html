@@ -12,6 +12,6 @@
 		<i class="fas fa-calendar-day"></i> {{- .Date.Format (.Site.Params.PostDateFormat | default "2006-1-2 15:04") -}}
 	</time>
 </div>
-<span class="a-gray text-md text-gray-500 leading-relaxed pt-2"><i class="fas fa-info"></i> 全文共 {{.WordCount }} 字，阅读需 <i class="fas fa-stopwatch"></i> {{ if .Site.Params.enableReadingTime }} <span class="more-meta">{{ $readTime := mul (div (countwords .Content) 220.0) 60 }}{{ $minutes := math.Floor (div $readTime 60) }}{{ $seconds := mod $readTime 60 }}{{ $minutes }} {{ cond (eq $minutes 1) "minute" "分" }}&nbsp;{{ $seconds }} {{ cond (eq $seconds 1) "second" "秒" }}</span>{{ end }}</span>
+<span class="a-gray text-md text-gray-500 leading-relaxed pt-2"><i class="fas fa-info"></i> 全文共 {{.WordCount }} 字，已阅 <i class="waline-pageview-count"></i> 次，需<i class="fas fa-stopwatch"></i>{{ if .Site.Params.enableReadingTime }}<span class="more-meta">{{ $readTime := mul (div (countwords .Content) 220.0) 60 }}{{ $minutes := math.Floor (div $readTime 60) }}{{ $seconds := mod $readTime 60 }}{{ $minutes }}{{ cond (eq $minutes 1) "minute" "分" }}&nbsp;{{ $seconds }}{{ cond (eq $seconds 1) "second" "秒" }}</span>{{ end }}</span>
 {{ if .Site.Params.toc }}{{ partial "toc" . }}{{ end }}
 <hr />
