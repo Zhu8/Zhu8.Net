@@ -20,6 +20,10 @@ li,
   color           : var(--text-faded) !important;
   background-color: transparent !important;
 }
+[class^="wl-tab"] {
+  background     : rgba(122, 204, 129, var(--tw-bg-opacity)) !important;
+  --tw-bg-opacity: 0.3 !important;
+}
 .theme-dark a {
   color: #459cf3;
 }
@@ -35,7 +39,7 @@ code,
 hr.double-line:after,
 kbd,
 th {
-  background     : rgba(105, 105, 105, var(--tw-bg-opacity)) !important;
+  background     : rgba(122,204,129, var(--tw-bg-opacity)) !important;
   --tw-bg-opacity: 0.1 !important;
 }
 h1,
