@@ -21,6 +21,8 @@ publishDir = "docs"
 [markup]
   [markup.highlight]
   style = "github"
+  [markup.goldmark.renderer]
+  unsafe = true
 
 [params]
   math = false

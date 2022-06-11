@@ -13,7 +13,7 @@ When you check your bank account or credit card statement, payment authorization
 Authorizations can remain in your account anywhere from 24 hours up to 14 business days, depending on the bank. You may contact your bank to confirm the charge for your purchase with Google or to check on the authorization status.&lt;/p>
 &lt;/blockquote>
 &lt;p>购买的截图，注意&lt;strong>Outlying Islands&lt;/strong>和&lt;strong>Hong Kong&lt;/strong>这两个地址哈：&lt;/p>
-&lt;!-- raw HTML omitted -->
+&lt;!--more-->
 &lt;p>&lt;img src="https://zhu8.net/images/posts/GoogleCheckout_10D83/googlecheckout.png" alt="google-checkout" title="google-checkout">&lt;/p>
 &lt;p>&lt;strong>P.S ：&lt;strong>上面的图片就是用&lt;/strong>&lt;del>Google Docs&lt;/del>&lt;/strong>（经数次测试，图片链接&lt;strong>不是&lt;/strong>固定链接，过一段时间就会变化，无法外部引用，只能用来存储了……）**附：**上传界面：&lt;/p>
 &lt;p>&lt;img src="https://zhu8.net/images/posts/GoogleCheckout_10D83/googledocs.png" alt="google-docs" title="google-docs">&lt;/p>
@@ -50,7 +50,7 @@ Authorizations can remain in your account anywhere from 24 hours up to 14 busine
 &lt;p>对经总署前置审批过的网络游戏，文化部应允许上网，不再重复审查，并在管理中严格按总署前置审批的内容管理；网络游戏出版物未经总署前置审批擅自上网的，由文化部负责指导文化市场执法队伍进行查处，总署不直接对上网的网络游戏进行处理。&lt;/p>
 &lt;p>此外，总署负责对境外著作权人授权的在互联网上网的游戏出版物进行审批，其他进口网络游戏的审批工作由文化部负责。&lt;/p>
 &lt;/blockquote>
-&lt;!-- raw HTML omitted -->
+&lt;!--more-->
 &lt;p>从上面的三个引文可以看到，两个国家级部委已公开开始掐架，至于谁对谁错，留给后世评判。仔细研究《“三定”规定》的解释，应该是文化部属于接手部门，同时接管了某些利益。版署是前置审批部门，至于魔兽交替后，他是否仍需要审批，是否审批通过，是一个疑问；如果说目前魔兽世界已属于上网状态的话，则按照中央编办的解释，又是属于文化部的管理范畴，所以现在文化部跳出来指出某些部门的“粗暴干涉”。但是有一点可以看到的就是：大家都想来“管”《魔兽世界》。俗话说：现官不如现管，对“丁三石”来说，也许每天扔进黄浦江的法拉利还得继续扔，搞不好还能创造一个“精卫填海”的奇迹。&lt;/p>
 &lt;p>我也曾经是一位魔兽玩家，现在仍在玩一些网游，魔兽开创的副本、任务等等模式仍被各网游不厌其烦的抄袭着。而且按照现在是世界市场，仍然是魔兽老大，无人能及。也许在2005年的时候，有前面的EQ（Ever Quest / 无尽的任务）等等的失败，各部门都认为这仅仅是一粒旺仔小馒头，不值得去争，才造就了九城的上市和辉煌财报。而现在，这粒小馒头已经发酵成了一块大蛋糕，正愁无处下嘴，代理权的交替给了某些部门能来分一块蛋糕饕餮的大好机会，而可怜的“丁三石”变成了鱼肉。成就了最高级别的掐架，成就了最长时间的审批，成就了“养猪巨户”丁三石。&lt;/p>
 &lt;p>关键是，现在的利益在谁嘴里？一块大蛋糕，玻璃渣（Blizzard）作为厨师，已经将小半块抑或大半块（谁知道呢？）吃到了肚子里，而食客目前有三个，可怜的三石虽然是有钱，但是没权。所以要用自己花巨资买来的蛋糕分享给没有出钱，但是有权的人们。本以为可以给这些人一小口，一开心就放过自己，结果玻厨师的厨艺超群，蛋糕味道太过鲜美，这些人闻到味道已经忘记了自己只能分一口，两眼放光的盯着整个蛋糕！&lt;/p>
@@ -63,18 +63,18 @@ Authorizations can remain in your account anywhere from 24 hours up to 14 busine
 &lt;li>研究了一下Moto自带的&lt;strong>导入名片&lt;/strong>功能，发现它可以支持vcf格式文件——名片（vCard）文件的！这样就简单了。具体操作步骤如下：&lt;/li>
 &lt;/ol>
 &lt;p>前面如何将你的通讯录导入到Outlook Express（以下简称OE）我就不说了，我只说如何将OE里面的通讯录导入到E2的过程。&lt;/p>
-&lt;!-- raw HTML omitted -->
+&lt;!--more-->
 &lt;p>首先，打开你的OE：&lt;/p>
-&lt;p>&lt;!-- raw HTML omitted -->&lt;img src="https://zhu8.net/images/posts/e2_contact_outlook_1_thumb.png" alt="e2_contact_outlook_1" title="e2_contact_outlook_1"> &lt;!-- raw HTML omitted -->&lt;/p>
+&lt;p>&lt;span class="center">&lt;img src="https://zhu8.net/images/posts/e2_contact_outlook_1_thumb.png" alt="e2_contact_outlook_1" title="e2_contact_outlook_1"> &lt;/span>&lt;/p>
 &lt;p>然后打开“地址”，就到了如下的页面：&lt;/p>
-&lt;p>&lt;!-- raw HTML omitted -->&lt;img src="https://zhu8.net/images/posts/e2_contact_outlook_2_thumb.png" alt="e2_contact_outlook_2" title="e2_contact_outlook_2"> &lt;!-- raw HTML omitted -->&lt;/p>
+&lt;p>&lt;span class="center">&lt;img src="https://zhu8.net/images/posts/e2_contact_outlook_2_thumb.png" alt="e2_contact_outlook_2" title="e2_contact_outlook_2"> &lt;/span>&lt;/p>
 &lt;p>剩下的就比较简单了，Ctrl+A（全选）——Ctrl+C（复制），连接你的E2到电脑，然后在你的E2储存卡上新建一个文件夹比如&lt;em>My Contacts&lt;/em>，将这些.vcf文件全部拷进去。断开手机与电脑的连接。接下来就是手机端的操作了，如下图：&lt;/p>
 &lt;p>进入通讯录——按左键——管理联系人：&lt;/p>
-&lt;p>&lt;!-- raw HTML omitted -->&lt;img src="https://zhu8.net/images/posts/e2_contact_snap_1_thumb.png" alt="e2_contact_snap_1" title="e2_contact_snap_1">&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;p>&lt;span class="center">&lt;img src="https://zhu8.net/images/posts/e2_contact_snap_1_thumb.png" alt="e2_contact_snap_1" title="e2_contact_snap_1">&lt;/span>&lt;/p>
 &lt;p>选择——导入名片：&lt;/p>
-&lt;p>&lt;!-- raw HTML omitted -->&lt;img src="https://zhu8.net/images/posts/e2_contact_snap_2_thumb.png" alt="e2_contact_snap_2" title="e2_contact_snap_2"> &lt;!-- raw HTML omitted -->&lt;/p>
+&lt;p>&lt;span class="center">&lt;img src="https://zhu8.net/images/posts/e2_contact_snap_2_thumb.png" alt="e2_contact_snap_2" title="e2_contact_snap_2"> &lt;/span>&lt;/p>
 &lt;p>找到你保存.vcf名片文件的文件夹，比如上面的&lt;em>My Contacts&lt;/em>：&lt;/p>
-&lt;p>&lt;!-- raw HTML omitted -->&lt;img src="https://zhu8.net/images/posts/e2_contact_snap_3_thumb.png" alt="e2_contact_snap_3" title="e2_contact_snap_3"> &lt;!-- raw HTML omitted -->&lt;/p>
+&lt;p>&lt;span class="center">&lt;img src="https://zhu8.net/images/posts/e2_contact_snap_3_thumb.png" alt="e2_contact_snap_3" title="e2_contact_snap_3"> &lt;/span>&lt;/p>
 &lt;p>全选，导入！&lt;/p>
 &lt;p>&lt;strong>至此，你的E2已经与你的OE完全一致了！以后你要同步你的通讯录。重复上述步骤即可！&lt;/strong>&lt;/p>
 &lt;p>&lt;em>此文为响应&lt;a href="http://welog.org/">King&lt;/a>对于我的“&lt;a href="https://zhu8.net/blog/2009/05/braid.html#comment-244">月经&lt;/a>”评论，在七月月底放出……哈哈&lt;/em>&lt;/p></description></item><item><title>Movable Type中文化书签插件-Bookmarks Chinese</title><link>https://zhu8.net/blog/2009/06/bookmarks-chinese.html</link><pubDate>Tue, 16 Jun 2009 20:58:44 +0800</pubDate><guid>https://zhu8.net/blog/2009/06/bookmarks-chinese.html</guid><description>&lt;h3 id="描述">&lt;strong>描述：&lt;/strong>&lt;/h3>
@@ -82,7 +82,7 @@ Authorizations can remain in your account anywhere from 24 hours up to 14 busine
 作者信息：Zhu8 (&lt;a href="https://zhu8.net" title="Zhu8">https://zhu8.net&lt;/a>)&lt;br>
 插件地址：&lt;a href="https://zhu8.net/blog/2009/06/bookmarks-chinese.html" title="Zhu8">https://zhu8.net/blog/2009/06/bookmarks-chinese.html&lt;/a>&lt;br>
 插件版本：1.0 Final (2009.6.4)&lt;/p>
-&lt;h3 id="插件结构font">&lt;strong>插件结构：&lt;/strong>&lt;!-- raw HTML omitted -->&lt;/h3>
+&lt;h3 id="插件结构font">&lt;strong>插件结构：&lt;/strong>&lt;/font>&lt;/h3>
 &lt;blockquote>
 &lt;p>mt-static/&lt;br>
 　　　　plugins/&lt;br>
@@ -111,7 +111,7 @@ Authorizations can remain in your account anywhere from 24 hours up to 14 busine
 　　　　　　　　　　　　　　function.mtfriendfeedurl.php&lt;br>
 　　　　　　　　　　　　　　function.mttwitterurl.php&lt;/p>
 &lt;/blockquote>
-&lt;h3 id="模板标签font">&lt;strong>模板标签：&lt;/strong>&lt;!-- raw HTML omitted -->&lt;/h3>
+&lt;h3 id="模板标签font">&lt;strong>模板标签：&lt;/strong>&lt;/font>&lt;/h3>
 &lt;blockquote>
 &lt;p>&amp;lt;$MTAddToAnyURL$&amp;gt;&lt;br>
 &amp;lt;$MTDiggURL$&amp;gt;&lt;br>
@@ -162,11 +162,11 @@ Authorizations can remain in your account anywhere from 24 hours up to 14 busine
 &lt;p>不过说实话，不知道是我用的&lt;em>Webhostingbuzz&lt;/em>很不错还是我的日志比较少的原因，没有出现过CPU超限被警告的问题。而且，说实话，我很热爱静态化的MT，在访问速度上，静态化确实很是舒爽。&lt;/p>
 &lt;p>唉，废话少说，准备更新数据库，换WP。&lt;/p>
 &lt;p>&lt;em>&lt;strong>Bye-Bye，活字印刷&amp;hellip;&amp;hellip;（抱歉，在十二小时之后，我又回来了&amp;hellip;&amp;hellip;）&lt;/strong>&lt;/em>&lt;/p>
-&lt;p>&lt;strong>-=The End=-&lt;/strong>&lt;/p></description></item><item><title>【Braid/时空幻境】图文介绍+视频攻略</title><link>https://zhu8.net/blog/2009/05/braid.html</link><pubDate>Sat, 09 May 2009 00:44:10 +0800</pubDate><guid>https://zhu8.net/blog/2009/05/braid.html</guid><description>&lt;p>&lt;!-- raw HTML omitted --> &lt;img src="https://zhu8.net/images/posts/killsign.png" alt="Braid-Kill Sign">&lt;!-- raw HTML omitted -->当我看到&lt;a href="http://woooh.com/2009/05/braid.html" title="Woooh:Braid">Aether&lt;/a>在FriendFeed上推荐了这个游戏的时候，回家我用最快的速度下载了下来。很小（100多Mb，仅相当于动辄N个G的一些“&lt;del>大作&lt;/del>”的数十分之一），但是画面细腻有加，音乐有些像我们当年玩 &lt;strong>《英雄无敌3之死亡阴影》&lt;/strong> 时候的背景音乐，唯美动听。&lt;/p>
+&lt;p>&lt;strong>-=The End=-&lt;/strong>&lt;/p></description></item><item><title>【Braid/时空幻境】图文介绍+视频攻略</title><link>https://zhu8.net/blog/2009/05/braid.html</link><pubDate>Sat, 09 May 2009 00:44:10 +0800</pubDate><guid>https://zhu8.net/blog/2009/05/braid.html</guid><description>&lt;p>&lt;span class="left"> &lt;img src="https://zhu8.net/images/posts/killsign.png" alt="Braid-Kill Sign">&lt;/span>当我看到&lt;a href="http://woooh.com/2009/05/braid.html" title="Woooh:Braid">Aether&lt;/a>在FriendFeed上推荐了这个游戏的时候，回家我用最快的速度下载了下来。很小（100多Mb，仅相当于动辄N个G的一些“&lt;del>大作&lt;/del>”的数十分之一），但是画面细腻有加，音乐有些像我们当年玩 &lt;strong>《英雄无敌3之死亡阴影》&lt;/strong> 时候的背景音乐，唯美动听。&lt;/p>
 &lt;p>&lt;em>&lt;strong>Updated on 2009/05/09 21：15&lt;/strong>&lt;/em>&lt;/p>
 &lt;p>变态的玩了一晚上，真的对自己的游戏体验有了一种全新的感受，从95年开始，玩游戏到现在，没有想到还可以有这样的叙事和创造性的玩法。所有的时光倒流，所有的World开篇的那片云山，那些翻开的书页上所有的哀伤并优美的文字，绘画板式的画面，都是一种强烈而变态的刺激。有些画面不得不借助攻略才能过关，才逐渐适应这个BT的时光倒流的世界，这个小游戏至少告诉了我：&lt;strong>有些东西是可以挽回的，而有些东西，一旦溜走或失去了，你就再也回不去了。&lt;/strong>&lt;/p>
 &lt;blockquote>
-&lt;p>&lt;!-- raw HTML omitted -->&lt;img src="https://zhu8.net/images/posts/Braid-flow_of_time.jpg" alt="Braid-flow of time">&lt;!-- raw HTML omitted -->Who has seen the wind?&lt;br>
+&lt;p>&lt;span class="right">&lt;img src="https://zhu8.net/images/posts/Braid-flow_of_time.jpg" alt="Braid-flow of time">&lt;/span>Who has seen the wind?&lt;br>
 Neither you nor I.&lt;br>
 But when the trees bow down their heads,&lt;br>
 The wind is passing by.&lt;br>
@@ -189,7 +189,7 @@ The wind is passing by.&lt;br>
 &lt;blockquote>
 &lt;p>&lt;img src="https://zhu8.net/images/posts/Braid-Title.jpg" alt="Braid Title">&lt;/p>
 &lt;/blockquote>
-&lt;!-- raw HTML omitted -->
+&lt;!--more-->
 &lt;blockquote>
 &lt;p>【游戏简介】&lt;/p>
 &lt;p>由Jonathan Blow开发的小游戏《Braid》PC版延期到4月10日发售。千万别小看这款小游戏！这款游戏曾经在2006年IGF独立游戏节（Independent Games Festival）获得过最佳设计的奖项，本作的Xbox360版已经于2008年8月6日在Xbox-Live市场上市，获得GameSpot.com的9.5分极高评价。&lt;/p>
@@ -232,11 +232,11 @@ Journey into worlds where time behaves strangely; observe, learn from, and then 
 &lt;p>去网上查了一下，有位哥们跟我情况比较相似：&lt;/p>
 &lt;blockquote>
 &lt;p>急啊，高后帮下忙啊！！！！入手的技嘉GA-MA78GM-S2H 1.1版（BIOS版本是F5），用的是双IDE（光驱和硬盘），硬盘是希捷80G,光驱是原来dvd的，挂光驱硬盘开机检测查找IDE设备都要2分多钟，光驱是从盘,硬盘为主盘，用的一根IDE线，设置从CDROM第1启动盘，HDD第2可以安装好系统番茄花园SP3，装完重起电脑后进系统就找不到硬盘了，这个时候，不管我把光驱还是硬盘设为第一启动设备都是这样，是不是BIOS里有什么设置的问题？？？？？有什么办法不啊？配置：内存2G一根.，CPU4800+，电源全汉200W额定，硬盘80G IDE，光驱DVD IDE&lt;br>
-这位兄弟的解答，也解决了我的问题：&lt;strong>硬盘跳线设为 MASTER.光驱跳线设为slave或为无，&lt;!-- raw HTML omitted -->ide线长端（好像蓝色）接主板IDE口，另一端（好像黑色）接硬盘，中间接光驱，硬盘与光驱距离连接短，注意硬盘光驱安装位置&lt;!-- raw HTML omitted -->。我昨天用了2小时终于搞定。&lt;/strong>&lt;/p>
+这位兄弟的解答，也解决了我的问题：&lt;strong>硬盘跳线设为 MASTER.光驱跳线设为slave或为无，&lt;span class="Apple-style-span" style="color: rgb(255, 0, 0);">ide线长端（好像蓝色）接主板IDE口，另一端（好像黑色）接硬盘，中间接光驱，硬盘与光驱距离连接短，注意硬盘光驱安装位置&lt;/span>。我昨天用了2小时终于搞定。&lt;/strong>&lt;/p>
 &lt;/blockquote>
 &lt;p>延伸阅读：跳线&lt;/p>
 &lt;blockquote>
-&lt;p>&lt;!-- raw HTML omitted -->&lt;img src="https://zhu8.net/images/posts/jumper.jpg" alt="跳线（Jumper）" title="跳线（Jumper）">&lt;!-- raw HTML omitted -->跳线（英文Jumper）是控制线路板上电流流动的小开关。它的作用是调整设备上不同电信号的通断关系，并以此调节设备的工作状态，如确定主板电压、驱动器的主从关系等。跳线基本上由两个部分组成，一部分是固定在主板、硬盘等设备上的，由两根或两根以上金属跳针组成（如图1）；另一部分是跳线帽（如图2），这是一个可以活动的部件，外层是绝缘塑料，内层是导电材料，可以插在跳线针上面，将两根跳线针连接起来。&lt;a href="http://www.cfanclub.net/article.php?itemid-3866-type-news.html">&lt;em>&lt;strong>更多……&lt;/strong>&lt;/em>&lt;/a>&lt;/p>
+&lt;p>&lt;span class="right">&lt;img src="https://zhu8.net/images/posts/jumper.jpg" alt="跳线（Jumper）" title="跳线（Jumper）">&lt;/span>跳线（英文Jumper）是控制线路板上电流流动的小开关。它的作用是调整设备上不同电信号的通断关系，并以此调节设备的工作状态，如确定主板电压、驱动器的主从关系等。跳线基本上由两个部分组成，一部分是固定在主板、硬盘等设备上的，由两根或两根以上金属跳针组成（如图1）；另一部分是跳线帽（如图2），这是一个可以活动的部件，外层是绝缘塑料，内层是导电材料，可以插在跳线针上面，将两根跳线针连接起来。&lt;a href="http://www.cfanclub.net/article.php?itemid-3866-type-news.html">&lt;em>&lt;strong>更多……&lt;/strong>&lt;/em>&lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>哦！今天是&lt;strong>情人节&lt;/strong>了哈！我这么晚还没有睡觉，老婆要打了……晚安！今晚特约演出：&lt;/p>
 &lt;p>歌手： Beyond&lt;br>
@@ -293,7 +293,7 @@ Journey into worlds where time behaves strangely; observe, learn from, and then 
 这是Doodle 4 Google “我的中国”谷歌国际少年绘画大赛中的一幅参赛作品。你看到它想起了什么？是的，我想起了&lt;strong>土啬&lt;/strong>。在墙内的小朋友透过谷歌在墙上开设的一个一个小洞，看到了墙外的另一个世界。这个世界充满了鸟语花香，绿树葱葱。多么有寓意的作品呀。&lt;/p>
 &lt;p>google对该作品的解释是：&lt;/p>
 &lt;blockquote>
-&lt;p>你，在看这幅画，而画中的人在看着谷歌。透过谷歌，他看到了什么呢？一副比画还美的中国。中国的谷歌，由中国古典的书画，建筑衬托。在墨色深处隐藏着中国人的灵气，在鸟语花香中发散着中华魂的气韵。穿过那扇门，融入这悠久的文化，味尝由我奉上的”美丽中国”这道珍馐。&lt;!-- raw HTML omitted -->
+&lt;p>你，在看这幅画，而画中的人在看着谷歌。透过谷歌，他看到了什么呢？一副比画还美的中国。中国的谷歌，由中国古典的书画，建筑衬托。在墨色深处隐藏着中国人的灵气，在鸟语花香中发散着中华魂的气韵。穿过那扇门，融入这悠久的文化，味尝由我奉上的”美丽中国”这道珍馐。&lt;/p>
 &lt;em>Quote:&lt;/em>&lt;a href="http://googlechinablog.com/2009/01/blog-post_15.html">Google 黑板报 — Google 中国的博客网志: 菡萏初现 水天一色 — 北京学生涂鸦作品登上谷歌中国主页&lt;/a>&lt;/p>
 &lt;/blockquote></description></item><item><title>NOD32浩方等对战平台NO PING及解决</title><link>https://zhu8.net/blog/2009/01/nod32-no-ping.html</link><pubDate>Thu, 15 Jan 2009 02:53:00 +0800</pubDate><guid>https://zhu8.net/blog/2009/01/nod32-no-ping.html</guid><description>&lt;h3 id="安装了eset-nod32安全套装登陆浩方对战平台后显示no-ping在游戏房间看不到人">安装了ESET NOD32安全套装，登陆浩方对战平台后显示NO PING，在游戏房间看不到人?&lt;/h3>
 &lt;p>&lt;strong>关键词&lt;/strong>：ESET NOD32,No Ping,浩方,对战平台&lt;/p>
@@ -319,9 +319,9 @@ Web浏览器里面的叉叉跟空白究竟有什么不同？&lt;br>
 &lt;/li>
 &lt;/ul>
 &lt;p>&lt;strong>其他对战平台（如QQ对战平台等）也可以参考如上设置。&lt;/strong>&lt;/p></description></item><item><title>ScribeFire添加Blogger出错及解决</title><link>https://zhu8.net/blog/2008/12/error-scribefire-to-blogger.html</link><pubDate>Fri, 26 Dec 2008 15:33:00 +0800</pubDate><guid>https://zhu8.net/blog/2008/12/error-scribefire-to-blogger.html</guid><description>&lt;p>ScribeFire添加Blogger出错，按照常规的步骤来，提示消息只是说出错，没有任何内容。&lt;/p>
-&lt;p>&lt;!-- raw HTML omitted -->&lt;img src="https://zhu8.net/images/posts/blogger-error.jpg" alt="">&lt;!-- raw HTML omitted -->&lt;/p>
-&lt;p>解决方法：把Http://改成&lt;!-- raw HTML omitted -->&lt;strong>Https://&lt;/strong>&lt;!-- raw HTML omitted -->，如图：&lt;/p>
-&lt;p>&lt;!-- raw HTML omitted -->&lt;img src="https://zhu8.net/images/posts/Blogger-set.png" alt="">&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;p>&lt;span class="center">&lt;img src="https://zhu8.net/images/posts/blogger-error.jpg" alt="">&lt;/span>&lt;/p>
+&lt;p>解决方法：把Http://改成&lt;span style='color: red;'>&lt;strong>Https://&lt;/strong>&lt;/span>，如图：&lt;/p>
+&lt;p>&lt;span class="center">&lt;img src="https://zhu8.net/images/posts/Blogger-set.png" alt="">&lt;/span>&lt;/p>
 &lt;p>&lt;strong>Ok，搞定！&lt;/strong>&lt;/p>
 &lt;blockquote>
 &lt;p>P.S：为了凑点字数，同时测试一下新买的键盘Dell SK-8115。发表感想若干：&lt;/p>
@@ -348,15 +348,15 @@ Web浏览器里面的叉叉跟空白究竟有什么不同？&lt;br>
 &lt;/blockquote>
 &lt;blockquote>
 &lt;p>&lt;strong>HTTPS&lt;/strong>以保密为目标研发，简单讲是&lt;a href="http://zh.wikipedia.org/wiki/HTTP" title="HTTP">HTTP&lt;/a>的安全版。其安全基础是SSL协议，因此加密的详细内容请看&lt;a href="http://zh.wikipedia.org/wiki/SSL" title="SSL">SSL&lt;/a>。全称&lt;strong>Hypertext Transfer Protocol over Secure Socket Layer&lt;/strong>。&lt;br>
-它是一个&lt;a href="http://zh.wikipedia.org/wiki/URI" title="URI">URI&lt;/a> scheme，句法类同&lt;!-- raw HTML omitted -->http:&lt;!-- raw HTML omitted -->体系。它使用了HTTP，但HTTPS存在不同于HTTP的默认&lt;a href="http://zh.wikipedia.org/wiki/%E7%AB%AF%E5%8F%A3" title="端口">端口&lt;/a>及一个加密/身份验证层（在&lt;a href="http://zh.wikipedia.org/wiki/HTTP" title="HTTP">HTTP&lt;/a>与&lt;a href="http://zh.wikipedia.org/wiki/TCP" title="TCP">TCP&lt;/a>之间）。这个协议的最初研发由&lt;a href="http://zh.wikipedia.org/wiki/%E7%BD%91%E6%99%AF%E5%85%AC%E5%8F%B8" title="网景公司">网景公司&lt;/a>进行，提供了&lt;a href="http://zh.wikipedia.org/wiki/%E8%BA%AB%E4%BB%BD%E9%AA%8C%E8%AF%81" title="身份验证">身份验证&lt;/a>与&lt;a href="http://zh.wikipedia.org/wiki/%E5%8A%A0%E5%AF%86" title="加密">加密&lt;/a>通讯方法，现在它被广泛用于&lt;a href="http://zh.wikipedia.org/wiki/%E4%BA%92%E8%81%94%E7%BD%91" title="互联网">互联网&lt;/a>上安全敏感的通讯，例如交易支付方面。&lt;/p>
-&lt;/blockquote></description></item><item><title>涅磐-WhoPig.COM</title><link>https://zhu8.net/blog/2008/10/nirvana-at-whopig-dot-com.html</link><pubDate>Thu, 30 Oct 2008 16:21:40 +0800</pubDate><guid>https://zhu8.net/blog/2008/10/nirvana-at-whopig-dot-com.html</guid><description>&lt;p>2008年10月28日，小站&lt;strong>浮生小筑&lt;/strong> （WhoPig.COM）在WebHostingBUZZ重生，将用&lt;a href="%CB%9Dhttps://zhu8.net/blog/2008/10/reborn-with-movable-type-4.html">MT对整站进行重建&lt;/a>。期待自己能有一个新的开始！以前的&lt;!-- raw HTML omitted -->&lt;em>&lt;strong>Zhu8&lt;/strong>&lt;/em>&lt;!-- raw HTML omitted -->以及***&lt;!-- raw HTML omitted -->Zhu8.Net&lt;!-- raw HTML omitted -->&lt;em>&lt;strong>就是今天和以后的&lt;/strong>WhoPig&lt;/em>*。欢迎Gtalk到：&lt;strong>WhoPig@Gmail&lt;/strong>。&lt;/p>
-&lt;p>待补充（Reborning……）&lt;a href="http://technorati.com/claim/kz3xq7ibs5">Technorati Profile&lt;/a>&lt;/p></description></item><item><title>中国足球终于雄起了！</title><link>https://zhu8.net/blog/2006/09/china-football.html</link><pubDate>Wed, 13 Sep 2006 02:20:06 +0800</pubDate><guid>https://zhu8.net/blog/2006/09/china-football.html</guid><description>&lt;p>昨日，中国国家少年队（U-17）&lt;!-- raw HTML omitted -->&lt;img src="https://zhu8.net/images/posts/china-football.jpg" alt="康玄秀领到红牌" title="康玄秀领到红牌">&lt;!-- raw HTML omitted -->在新加坡举行的亚足联U17少年锦标赛中拚搏努力，在昨晚的比赛中顽强的和十五分钟罚下一人，加时赛两人抽筋的朝鲜队拚搏到了加时赛的最后一分钟！并奋勇无比的将比分从一比一追成了一比二，当仁不让的将狼狈的在场上乱奔的朝鲜队送进了四强，并无情的将朝鲜队接下来想好好休息以及明年可以好好休息不打世青赛的美梦给打碎了，从而将宝贵的休息和调整的时间掌握在自己的手中。&lt;/p>
+它是一个&lt;a href="http://zh.wikipedia.org/wiki/URI" title="URI">URI&lt;/a> scheme，句法类同&lt;tt>http:&lt;/tt>体系。它使用了HTTP，但HTTPS存在不同于HTTP的默认&lt;a href="http://zh.wikipedia.org/wiki/%E7%AB%AF%E5%8F%A3" title="端口">端口&lt;/a>及一个加密/身份验证层（在&lt;a href="http://zh.wikipedia.org/wiki/HTTP" title="HTTP">HTTP&lt;/a>与&lt;a href="http://zh.wikipedia.org/wiki/TCP" title="TCP">TCP&lt;/a>之间）。这个协议的最初研发由&lt;a href="http://zh.wikipedia.org/wiki/%E7%BD%91%E6%99%AF%E5%85%AC%E5%8F%B8" title="网景公司">网景公司&lt;/a>进行，提供了&lt;a href="http://zh.wikipedia.org/wiki/%E8%BA%AB%E4%BB%BD%E9%AA%8C%E8%AF%81" title="身份验证">身份验证&lt;/a>与&lt;a href="http://zh.wikipedia.org/wiki/%E5%8A%A0%E5%AF%86" title="加密">加密&lt;/a>通讯方法，现在它被广泛用于&lt;a href="http://zh.wikipedia.org/wiki/%E4%BA%92%E8%81%94%E7%BD%91" title="互联网">互联网&lt;/a>上安全敏感的通讯，例如交易支付方面。&lt;/p>
+&lt;/blockquote></description></item><item><title>涅磐-WhoPig.COM</title><link>https://zhu8.net/blog/2008/10/nirvana-at-whopig-dot-com.html</link><pubDate>Thu, 30 Oct 2008 16:21:40 +0800</pubDate><guid>https://zhu8.net/blog/2008/10/nirvana-at-whopig-dot-com.html</guid><description>&lt;p>2008年10月28日，小站&lt;strong>浮生小筑&lt;/strong> （WhoPig.COM）在WebHostingBUZZ重生，将用&lt;a href="%CB%9Dhttps://zhu8.net/blog/2008/10/reborn-with-movable-type-4.html">MT对整站进行重建&lt;/a>。期待自己能有一个新的开始！以前的&lt;strike>&lt;em>&lt;strong>Zhu8&lt;/strong>&lt;/em>&lt;/strike>以及***&lt;strike>Zhu8.Net&lt;/strike>&lt;em>&lt;strong>就是今天和以后的&lt;/strong>WhoPig&lt;/em>*。欢迎Gtalk到：&lt;strong>WhoPig@Gmail&lt;/strong>。&lt;/p>
+&lt;p>待补充（Reborning……）&lt;a href="http://technorati.com/claim/kz3xq7ibs5">Technorati Profile&lt;/a>&lt;/p></description></item><item><title>中国足球终于雄起了！</title><link>https://zhu8.net/blog/2006/09/china-football.html</link><pubDate>Wed, 13 Sep 2006 02:20:06 +0800</pubDate><guid>https://zhu8.net/blog/2006/09/china-football.html</guid><description>&lt;p>昨日，中国国家少年队（U-17）&lt;span class="right">&lt;img src="https://zhu8.net/images/posts/china-football.jpg" alt="康玄秀领到红牌" title="康玄秀领到红牌">&lt;/span>在新加坡举行的亚足联U17少年锦标赛中拚搏努力，在昨晚的比赛中顽强的和十五分钟罚下一人，加时赛两人抽筋的朝鲜队拚搏到了加时赛的最后一分钟！并奋勇无比的将比分从一比一追成了一比二，当仁不让的将狼狈的在场上乱奔的朝鲜队送进了四强，并无情的将朝鲜队接下来想好好休息以及明年可以好好休息不打世青赛的美梦给打碎了，从而将宝贵的休息和调整的时间掌握在自己的手中。&lt;/p>
 &lt;p>中国的未来之星们在多么努力和拚搏！他们就是中国足球的未来！我们在这里可以大大的舒一口气了，中国足球，终于出头了！！在这大快人心的日子里，我郑重决定：&lt;/p>
 &lt;blockquote>
 &lt;p>从此中国队的比赛每场必看！一定要看看以后的那些对手们，怎样像越南一样被中国拚的无话可说，只好拿平局；怎样像朝鲜一样，被中国队搞的罚下一人，拍手称快；怎样被拖入加时赛，打的浑身抽筋，满地找牙；怎样被五个后卫加门将围堵，只好选择打门！&lt;/p>
 &lt;/blockquote>
 &lt;p>好了，我要说，中国足球的希望&lt;strong>越来越大&lt;/strong>！你看，他们可以不用继续打亚洲U-17这种低级别的比赛，回家好好按照中国足球既有创意、又很实用的技战术训练；他们可以不用参加明年的世青赛，那些其它的小毛孩们哪里能有资格跟中国足球比拚？我们只需要把我们的水平和优势发挥出来，就凭像朝鲜队那样的队，上半场就低级犯规、下半场就体力不支、加时赛就两人抽筋，不配和中国足球打，女青&lt;strong>0-5&lt;/strong>算什么，玩玩嘛！男少&lt;strong>1-2&lt;/strong>算什么，让让呗！&lt;/p>
-&lt;p>我应该怀着怎样的心情，严肃却掩饰不住内心狂喜的向全世界宣布：&lt;strong>中国足球终于雄起了！雄！起！了&lt;!-- raw HTML omitted -->了了了了&lt;!-- raw HTML omitted -->！&lt;/strong>&lt;/p></description></item><item><title>我被Google封了？</title><link>https://zhu8.net/blog/2006/07/google-ban-zhu8-net.html</link><pubDate>Fri, 21 Jul 2006 13:30:26 +0800</pubDate><guid>https://zhu8.net/blog/2006/07/google-ban-zhu8-net.html</guid><description>&lt;p>好多天没写日志了，工作了之后没什么热情了，不知道该写些什么了。我不知道是怎么一回事，我的这个站Zhu8.Net我也不知道原来是干什么的，好象在Google一直没有被收录过。我把它弄来之后，架这个站已经有快一个月了，在百度、Yahoo!、MSN都收录了之后，Google在开始的时候还收录了我的Blog&lt;a href="http://zhu8.512j.com/blog/">原始地址&lt;/a>里可怜的两篇文章，但后来，不光原始地址的记录没有了，就连连接到这里的&lt;a href="http://feeds.feedburner.com/Zhu8">FeedBurner&lt;/a>也没有了，仅仅留下一个地址，连标题都没有了。更不要提我的这个顶级域名了。&lt;/p>
+&lt;p>我应该怀着怎样的心情，严肃却掩饰不住内心狂喜的向全世界宣布：&lt;strong>中国足球终于雄起了！雄！起！了&lt;sup>了了了了&lt;/sup>！&lt;/strong>&lt;/p></description></item><item><title>我被Google封了？</title><link>https://zhu8.net/blog/2006/07/google-ban-zhu8-net.html</link><pubDate>Fri, 21 Jul 2006 13:30:26 +0800</pubDate><guid>https://zhu8.net/blog/2006/07/google-ban-zhu8-net.html</guid><description>&lt;p>好多天没写日志了，工作了之后没什么热情了，不知道该写些什么了。我不知道是怎么一回事，我的这个站Zhu8.Net我也不知道原来是干什么的，好象在Google一直没有被收录过。我把它弄来之后，架这个站已经有快一个月了，在百度、Yahoo!、MSN都收录了之后，Google在开始的时候还收录了我的Blog&lt;a href="http://zhu8.512j.com/blog/">原始地址&lt;/a>里可怜的两篇文章，但后来，不光原始地址的记录没有了，就连连接到这里的&lt;a href="http://feeds.feedburner.com/Zhu8">FeedBurner&lt;/a>也没有了，仅仅留下一个地址，连标题都没有了。更不要提我的这个顶级域名了。&lt;/p>
 &lt;p>可笑的是，从统计里看，百度已经收录了我几乎所有的页面，关于WP的某些关键词还相当靠前；而Google里没有一丝一毫关于本站的东西，当我在用着这些服务的时候：&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="http://www.google.com/analytics/">Analytics（分析）&lt;/a>&lt;/strong>&lt;/li>

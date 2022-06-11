@@ -3,7 +3,7 @@
 作者信息：Zhu8 (&lt;a href="https://zhu8.net" title="Zhu8">https://zhu8.net&lt;/a>)&lt;br>
 插件地址：&lt;a href="https://zhu8.net/blog/2009/06/bookmarks-chinese.html" title="Zhu8">https://zhu8.net/blog/2009/06/bookmarks-chinese.html&lt;/a>&lt;br>
 插件版本：1.0 Final (2009.6.4)&lt;/p>
-&lt;h3 id="插件结构font">&lt;strong>插件结构：&lt;/strong>&lt;!-- raw HTML omitted -->&lt;/h3>
+&lt;h3 id="插件结构font">&lt;strong>插件结构：&lt;/strong>&lt;/font>&lt;/h3>
 &lt;blockquote>
 &lt;p>mt-static/&lt;br>
 　　　　plugins/&lt;br>
@@ -32,7 +32,7 @@
 　　　　　　　　　　　　　　function.mtfriendfeedurl.php&lt;br>
 　　　　　　　　　　　　　　function.mttwitterurl.php&lt;/p>
 &lt;/blockquote>
-&lt;h3 id="模板标签font">&lt;strong>模板标签：&lt;/strong>&lt;!-- raw HTML omitted -->&lt;/h3>
+&lt;h3 id="模板标签font">&lt;strong>模板标签：&lt;/strong>&lt;/font>&lt;/h3>
 &lt;blockquote>
 &lt;p>&amp;lt;$MTAddToAnyURL$&amp;gt;&lt;br>
 &amp;lt;$MTDiggURL$&amp;gt;&lt;br>
@@ -100,7 +100,7 @@
 &lt;p>&lt;em>&lt;strong>Update On 2006/9/27&lt;/strong>&lt;/em>：更新了图片的链接问题，使用&lt;code>“.get_settings(‘siteurl’).”&lt;/code>使链接在更新Blog地址的时候不会出错。&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;p>&lt;strong>插件安装&lt;/strong>：1) 下载插件：&lt;!-- raw HTML omitted -->add-bookmarks.rar&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;p>&lt;strong>插件安装&lt;/strong>：1) 下载插件：&lt;a title="下载插件" href="https://zhu8.net/uploads/add-bookmarks.rar">add-bookmarks.rar&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;ol start="2">
@@ -155,7 +155,7 @@
 &lt;ul>
 &lt;li>&lt;strong>Tips(小提示)&lt;/strong>：&lt;/li>
 &lt;/ul>
-&lt;p>Yahoo!我已经修改成&lt;a href="http://cn.yahoo.com/" title="雅虎中国">Yahoo!中国&lt;/a>的&lt;a href="http://myweb.cn.yahoo.com/" title="雅虎收藏+">Yahoo!收藏&lt;/a>&lt;!-- raw HTML omitted -->+&lt;!-- raw HTML omitted -->，更符合国人习惯；你如果想修改图标内容，图标均在icon目录下，增加或修改的图标请注意在&lt;em>add-bookmarks.php&lt;/em>中也要记得修改图标的源文件地址。&lt;br>
+&lt;p>Yahoo!我已经修改成&lt;a href="http://cn.yahoo.com/" title="雅虎中国">Yahoo!中国&lt;/a>的&lt;a href="http://myweb.cn.yahoo.com/" title="雅虎收藏+">Yahoo!收藏&lt;/a>&lt;sup>+&lt;/sup>，更符合国人习惯；你如果想修改图标内容，图标均在icon目录下，增加或修改的图标请注意在&lt;em>add-bookmarks.php&lt;/em>中也要记得修改图标的源文件地址。&lt;br>
 &lt;em>&lt;strong>Update@2006/09/05&lt;/strong>&lt;/em>&lt;br>
 将所使用的五个书签的代码做了一次更新，确保每个对中文正确识别。其中Furl对中文的支持最不好，我使用其他人所最常使用的代码均会使中文标题变成乱码，所以我最后还是选择了一个弹出窗口的，可能使用&lt;strong>窗口block&lt;/strong>的会有一定影响。&lt;br>
 更多书签网站请参考：&lt;a href="http://blog.donews.com/rss/archive/2005/10/16/590504.aspx" title="网摘大全1016最新整理版　(rss8.net 木木牛牛整理) ">网摘大全1016最新整理版　(rss8.net 木木牛牛整理) &lt;/a>&lt;br>
@@ -167,7 +167,7 @@
 加入 &lt;a href="http://fanfou.com/" title="饭否&amp;amp;迷你博客 随时随地发消息">饭否&lt;/a>&lt;br>
 加入 &lt;a href="http://shuqian.qq.com/" title="QQ书签">QQ书签&lt;/a>&lt;br>
 加入 &lt;a href="http://technorati.com/faves/" title="Technorati Favorites">Technorati Favorites&lt;/a>&lt;/p>
-&lt;p>&lt;!-- raw HTML omitted -->&lt;em>English Vision:&lt;/em>&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;p>&lt;a id="Eng">&lt;em>English Vision:&lt;/em>&lt;/a>&lt;/p>
 &lt;p>&lt;strong>Add Bookmarks for WordPress&lt;/strong>&lt;br>
 &lt;strong>Plugin Name&lt;/strong>: Add Bookmarks&lt;br>
 &lt;strong>Version&lt;/strong>: 0.4 &lt;em>(Last update:2008/03/18)&lt;/em>&lt;br>

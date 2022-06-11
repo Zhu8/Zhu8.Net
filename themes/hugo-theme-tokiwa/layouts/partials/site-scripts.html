@@ -13,3 +13,7 @@
 <script src="{{ relURL (printf "%s%s" "dist/" .) }}"></script>{{ end }}
 {{ if .Site.Params.fuse }}<script src="/lib/fuse.min.js"></script>
 <script src="/lib/fastsearch.js"></script>{{ end }}
+{{ if (findRE "<pre" .Content 1) }}
+<script src="/assets/js/clipboard.min.js"></script>
+<script src="/assets/js/clip.js"></script>
+{{ end }}

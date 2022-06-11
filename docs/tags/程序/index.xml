@@ -3,7 +3,7 @@
 作者信息：Zhu8 (&lt;a href="https://zhu8.net" title="Zhu8">https://zhu8.net&lt;/a>)&lt;br>
 插件地址：&lt;a href="https://zhu8.net/blog/2009/06/bookmarks-chinese.html" title="Zhu8">https://zhu8.net/blog/2009/06/bookmarks-chinese.html&lt;/a>&lt;br>
 插件版本：1.0 Final (2009.6.4)&lt;/p>
-&lt;h3 id="插件结构font">&lt;strong>插件结构：&lt;/strong>&lt;!-- raw HTML omitted -->&lt;/h3>
+&lt;h3 id="插件结构font">&lt;strong>插件结构：&lt;/strong>&lt;/font>&lt;/h3>
 &lt;blockquote>
 &lt;p>mt-static/&lt;br>
 　　　　plugins/&lt;br>
@@ -32,7 +32,7 @@
 　　　　　　　　　　　　　　function.mtfriendfeedurl.php&lt;br>
 　　　　　　　　　　　　　　function.mttwitterurl.php&lt;/p>
 &lt;/blockquote>
-&lt;h3 id="模板标签font">&lt;strong>模板标签：&lt;/strong>&lt;!-- raw HTML omitted -->&lt;/h3>
+&lt;h3 id="模板标签font">&lt;strong>模板标签：&lt;/strong>&lt;/font>&lt;/h3>
 &lt;blockquote>
 &lt;p>&amp;lt;$MTAddToAnyURL$&amp;gt;&lt;br>
 &amp;lt;$MTDiggURL$&amp;gt;&lt;br>
@@ -84,9 +84,9 @@
 &lt;p>唉，废话少说，准备更新数据库，换WP。&lt;/p>
 &lt;p>&lt;em>&lt;strong>Bye-Bye，活字印刷&amp;hellip;&amp;hellip;（抱歉，在十二小时之后，我又回来了&amp;hellip;&amp;hellip;）&lt;/strong>&lt;/em>&lt;/p>
 &lt;p>&lt;strong>-=The End=-&lt;/strong>&lt;/p></description></item><item><title>Movable Type 4网站重构记录</title><link>https://zhu8.net/blog/2008/10/reborn-with-movable-type-4.html</link><pubDate>Thu, 30 Oct 2008 16:22:40 +0800</pubDate><guid>https://zhu8.net/blog/2008/10/reborn-with-movable-type-4.html</guid><description>&lt;p>即将使用MT进行网站的重构，全线启用&lt;a href="http://www.movabletype.com/">Movable Type&lt;/a> （MT.com貌似被GFW了，虽然不知道为什么连一个专业的Blog平台长城都要去过问……请访问&lt;a href="http://www.movabletype.org/">MT.org&lt;/a>获得新消息。）&lt;/p></description></item><item><title>又换回MovableType</title><link>https://zhu8.net/blog/2008/05/back-to-movabletype.html</link><pubDate>Thu, 15 May 2008 22:48:21 +0800</pubDate><guid>https://zhu8.net/blog/2008/05/back-to-movabletype.html</guid><description>&lt;p>其实还是摆脱不了喜欢静态页面&lt;strong>HTML&lt;/strong>的癖好，所以说第一次用什么程序对个人的看法是最大的，我第一次选择了&lt;a href="http://www.rainbowsoft.org">Z-Blog&lt;/a>，然后就总是念念不忘。存档还在我的&lt;a href="http://chenjun.com/old/">/old/&lt;/a>目录下。&lt;/p>
-&lt;p>当时用Z-Blog搭建网站的乐趣，学习ASP的乐趣，修改模板的乐趣，都对我以后产生了很大的影响。其实现在是因为改用了PHP的缘故，所以没有办法再用Z-Blog了，但是很佩服zx.asd当年发布的这个程序，以及当时陪伴Z-Blog一起成长的过程，虽然也许现在没有一个人会记得我、记得我当年发布过2Sky和Firefox的Z-Blog模板、记得我写过的一篇弱智的&lt;a href="http://bbs.rainbowsoft.org/thread-254-1-2.html">教程&lt;/a>，呵呵，如今已经好些年过去了，我再次回到了可爱的&lt;strong>HTML&lt;/strong>身边……&lt;/p></description></item><item><title>WordPress 2.5</title><link>https://zhu8.net/blog/2008/03/wordpress-25.html</link><pubDate>Wed, 19 Mar 2008 08:48:02 +0800</pubDate><guid>https://zhu8.net/blog/2008/03/wordpress-25.html</guid><description>&lt;p>&lt;!-- raw HTML omitted -->&lt;img src="https://zhu8.net/images/posts/wordpress-logo.png" alt="WordPress Logo" title="WordPress Logo">&lt;!-- raw HTML omitted -->现在我正在用着 beta1，RC1就来了，真是神速，一会就上！（待修改）&lt;em>&lt;strong>修改于2008/3/31&lt;/strong>&lt;/em>&lt;/p>
+&lt;p>当时用Z-Blog搭建网站的乐趣，学习ASP的乐趣，修改模板的乐趣，都对我以后产生了很大的影响。其实现在是因为改用了PHP的缘故，所以没有办法再用Z-Blog了，但是很佩服zx.asd当年发布的这个程序，以及当时陪伴Z-Blog一起成长的过程，虽然也许现在没有一个人会记得我、记得我当年发布过2Sky和Firefox的Z-Blog模板、记得我写过的一篇弱智的&lt;a href="http://bbs.rainbowsoft.org/thread-254-1-2.html">教程&lt;/a>，呵呵，如今已经好些年过去了，我再次回到了可爱的&lt;strong>HTML&lt;/strong>身边……&lt;/p></description></item><item><title>WordPress 2.5</title><link>https://zhu8.net/blog/2008/03/wordpress-25.html</link><pubDate>Wed, 19 Mar 2008 08:48:02 +0800</pubDate><guid>https://zhu8.net/blog/2008/03/wordpress-25.html</guid><description>&lt;p>&lt;span class="right">&lt;img src="https://zhu8.net/images/posts/wordpress-logo.png" alt="WordPress Logo" title="WordPress Logo">&lt;/span>现在我正在用着 beta1，RC1就来了，真是神速，一会就上！（待修改）&lt;em>&lt;strong>修改于2008/3/31&lt;/strong>&lt;/em>&lt;/p>
 &lt;p>WordPress持续爆发中&lt;a href="http://ma.tt/" title="域名比较......帅">Matt&lt;/a>连续爆发了RC1、RC2后，正式版终于在愚人节前上线了。呼。更新到2.5就先停一下吧。两天更新一次实在是跟不上了。&lt;/p>
-&lt;p>不过我的问题还是没有解决，在Firefox和Safari下Add media 仍然是报HTTP Error，估计是服务器的关系，虽然Wordpress Support 上面很多人也出现了此类问题，但似乎还没有解决办法。在IE7下更万恶，传完了，占了地儿，却无法显示和使用，更绝。看来我还是手动Upload的好了。&lt;/p></description></item><item><title>终于用上Movable Type!</title><link>https://zhu8.net/blog/2008/03/change-to-movable-type.html</link><pubDate>Sat, 08 Mar 2008 00:14:31 +0800</pubDate><guid>https://zhu8.net/blog/2008/03/change-to-movable-type.html</guid><description>&lt;p>&lt;!-- raw HTML omitted -->准备慢慢玩玩MT，敬请期待！&lt;!-- raw HTML omitted -->&lt;em>By Zhu8 on Friday, Mar 7, 2008 12:14:53&lt;/em>&lt;/p>
+&lt;p>不过我的问题还是没有解决，在Firefox和Safari下Add media 仍然是报HTTP Error，估计是服务器的关系，虽然Wordpress Support 上面很多人也出现了此类问题，但似乎还没有解决办法。在IE7下更万恶，传完了，占了地儿，却无法显示和使用，更绝。看来我还是手动Upload的好了。&lt;/p></description></item><item><title>终于用上Movable Type!</title><link>https://zhu8.net/blog/2008/03/change-to-movable-type.html</link><pubDate>Sat, 08 Mar 2008 00:14:31 +0800</pubDate><guid>https://zhu8.net/blog/2008/03/change-to-movable-type.html</guid><description>&lt;p>&lt;del datetime="2008-03-15T07:28:46+00:00">准备慢慢玩玩MT，敬请期待！&lt;/del>&lt;em>By Zhu8 on Friday, Mar 7, 2008 12:14:53&lt;/em>&lt;/p>
 &lt;p>&lt;em>Update:2008/03/15&lt;/em> 呵呵，玩了两天，还是不习惯，又换回&lt;del>WordPress&lt;/del>了。&lt;/p>
 &lt;p>&lt;em>&lt;strong>Update Again:2008/05/15&lt;/strong>&lt;/em> &lt;strong>看来我是极度的喜新厌旧型-_-#，两个月后，又回到了MT。&lt;/strong>&lt;/p>
 &lt;p>&lt;em>&lt;strong>Update Again &amp;amp; Again:2008/08/21&lt;/strong>&lt;/em> &lt;strong>昨天，我在回到WP之后三个月，又回到了MT。&lt;/strong>&lt;/p></description></item></channel></rss>

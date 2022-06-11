@@ -2,11 +2,11 @@
 &lt;p>去网上查了一下，有位哥们跟我情况比较相似：&lt;/p>
 &lt;blockquote>
 &lt;p>急啊，高后帮下忙啊！！！！入手的技嘉GA-MA78GM-S2H 1.1版（BIOS版本是F5），用的是双IDE（光驱和硬盘），硬盘是希捷80G,光驱是原来dvd的，挂光驱硬盘开机检测查找IDE设备都要2分多钟，光驱是从盘,硬盘为主盘，用的一根IDE线，设置从CDROM第1启动盘，HDD第2可以安装好系统番茄花园SP3，装完重起电脑后进系统就找不到硬盘了，这个时候，不管我把光驱还是硬盘设为第一启动设备都是这样，是不是BIOS里有什么设置的问题？？？？？有什么办法不啊？配置：内存2G一根.，CPU4800+，电源全汉200W额定，硬盘80G IDE，光驱DVD IDE&lt;br>
-这位兄弟的解答，也解决了我的问题：&lt;strong>硬盘跳线设为 MASTER.光驱跳线设为slave或为无，&lt;!-- raw HTML omitted -->ide线长端（好像蓝色）接主板IDE口，另一端（好像黑色）接硬盘，中间接光驱，硬盘与光驱距离连接短，注意硬盘光驱安装位置&lt;!-- raw HTML omitted -->。我昨天用了2小时终于搞定。&lt;/strong>&lt;/p>
+这位兄弟的解答，也解决了我的问题：&lt;strong>硬盘跳线设为 MASTER.光驱跳线设为slave或为无，&lt;span class="Apple-style-span" style="color: rgb(255, 0, 0);">ide线长端（好像蓝色）接主板IDE口，另一端（好像黑色）接硬盘，中间接光驱，硬盘与光驱距离连接短，注意硬盘光驱安装位置&lt;/span>。我昨天用了2小时终于搞定。&lt;/strong>&lt;/p>
 &lt;/blockquote>
 &lt;p>延伸阅读：跳线&lt;/p>
 &lt;blockquote>
-&lt;p>&lt;!-- raw HTML omitted -->&lt;img src="https://zhu8.net/images/posts/jumper.jpg" alt="跳线（Jumper）" title="跳线（Jumper）">&lt;!-- raw HTML omitted -->跳线（英文Jumper）是控制线路板上电流流动的小开关。它的作用是调整设备上不同电信号的通断关系，并以此调节设备的工作状态，如确定主板电压、驱动器的主从关系等。跳线基本上由两个部分组成，一部分是固定在主板、硬盘等设备上的，由两根或两根以上金属跳针组成（如图1）；另一部分是跳线帽（如图2），这是一个可以活动的部件，外层是绝缘塑料，内层是导电材料，可以插在跳线针上面，将两根跳线针连接起来。&lt;a href="http://www.cfanclub.net/article.php?itemid-3866-type-news.html">&lt;em>&lt;strong>更多……&lt;/strong>&lt;/em>&lt;/a>&lt;/p>
+&lt;p>&lt;span class="right">&lt;img src="https://zhu8.net/images/posts/jumper.jpg" alt="跳线（Jumper）" title="跳线（Jumper）">&lt;/span>跳线（英文Jumper）是控制线路板上电流流动的小开关。它的作用是调整设备上不同电信号的通断关系，并以此调节设备的工作状态，如确定主板电压、驱动器的主从关系等。跳线基本上由两个部分组成，一部分是固定在主板、硬盘等设备上的，由两根或两根以上金属跳针组成（如图1）；另一部分是跳线帽（如图2），这是一个可以活动的部件，外层是绝缘塑料，内层是导电材料，可以插在跳线针上面，将两根跳线针连接起来。&lt;a href="http://www.cfanclub.net/article.php?itemid-3866-type-news.html">&lt;em>&lt;strong>更多……&lt;/strong>&lt;/em>&lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>哦！今天是&lt;strong>情人节&lt;/strong>了哈！我这么晚还没有睡觉，老婆要打了……晚安！今晚特约演出：&lt;/p>
 &lt;p>歌手： Beyond&lt;br>

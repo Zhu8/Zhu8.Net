@@ -8,7 +8,7 @@ for hugo * clip.js */
    function addCopy(element) {
        var copy = document.createElement("button");
        copy.className = "copy button is-pulled-right";
-       copy.textContent = "copy";
+       copy.textContent = "Copy";
        element.append(copy);
    }
 

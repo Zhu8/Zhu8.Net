@@ -15,7 +15,8 @@
 p,
 label,
 li,
-ul {
+ul,
+.wl-card .wl-meta>span{
   color     : var(--text-faded) !important;
   background: transparent !important;
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>HTTP on 猪八的网：浮生志</title><link>https://zhu8.net/tags/http/</link><description>Recent content in HTTP on 猪八的网：浮生志</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Zhu8.Net 🚀 [&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">CC BY-SA&lt;/a>]</copyright><lastBuildDate>Tue, 17 May 2022 23:40:10 +0800</lastBuildDate><atom:link href="https://zhu8.net/tags/http/index.xml" rel="self" type="application/rss+xml"/><item><title>解决浏览器X-Content-Type-Options报错</title><link>https://zhu8.net/blog/2022/05/resolve-browser-x-content-type-options-error.html</link><pubDate>Tue, 17 May 2022 23:40:10 +0800</pubDate><guid>https://zhu8.net/blog/2022/05/resolve-browser-x-content-type-options-error.html</guid><description>&lt;p>&lt;img src="https://zhu8.net/images/posts/http-error.png" alt="HTTP-ERROR RESPONSE">&lt;/p>
-&lt;p>今天无意用Edge的开发人员调试工具，就出现了如上图的&lt;!-- raw HTML omitted -->错误&lt;!-- raw HTML omitted -->：&lt;code>Response should include 'x-content-type-options' header.&lt;/code>&lt;/p>
+&lt;p>今天无意用Edge的开发人员调试工具，就出现了如上图的&lt;mark>错误&lt;/mark>：&lt;code>Response should include 'x-content-type-options' header.&lt;/code>&lt;/p>
 &lt;h3 id="错误提示">错误提示：&lt;/h3>
 &lt;table>
 &lt;thead>
@@ -17,8 +17,8 @@
 &lt;/table>
 &lt;p>研究了一下，发现是HTTP响应头的问题，需要从我的托管网站Vercel着手。&lt;/p>
 &lt;blockquote>
-&lt;p>The &lt;em>&lt;strong>X-Content-Type-Options&lt;/strong>&lt;/em> response &lt;strong>HTTP&lt;/strong> header is a marker used by the server to indicate that the &lt;!-- raw HTML omitted -->&lt;strong>MIME&lt;/strong>&lt;!-- raw HTML omitted --> types advertised in the &lt;strong>Content-Type&lt;/strong> headers should be followed and not be changed. The header allows you to avoid &lt;strong>MIME type&lt;/strong> sniffing by saying that the MIME types are deliberately configured.&lt;/p>
-&lt;p>&lt;!-- raw HTML omitted -->— via &lt;strong>MDN&lt;/strong> &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;p>The &lt;em>&lt;strong>X-Content-Type-Options&lt;/strong>&lt;/em> response &lt;strong>HTTP&lt;/strong> header is a marker used by the server to indicate that the &lt;abbr title="Multipurpose Internet Mail Extensions">&lt;strong>MIME&lt;/strong>&lt;/abbr> types advertised in the &lt;strong>Content-Type&lt;/strong> headers should be followed and not be changed. The header allows you to avoid &lt;strong>MIME type&lt;/strong> sniffing by saying that the MIME types are deliberately configured.&lt;/p>
+&lt;p>&lt;cite>— via &lt;strong>MDN&lt;/strong> &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/cite>&lt;/p>
 &lt;/blockquote>
 &lt;h3 id="解决方法">解决方法：&lt;/h3>
 &lt;p>在你的Github或者Gitlab的库首页，增加文件：&lt;code>vercel.json&lt;/code> &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
