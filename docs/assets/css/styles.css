@@ -14,15 +14,15 @@
 [class^="wl-"],
 p,
 label,
-li,
 ul,
-.wl-card .wl-meta>span{
-  color     : var(--text-faded) !important;
-  background: transparent !important;
+li,
+.wl-card .wl-meta > span {
+  color           : var(--text-faded) !important;
+  background-color: transparent !important;
 }
-
-.theme-dark a{color:#459cf3;}
-
+.theme-dark a {
+  color: #459cf3;
+}
 .wrapper span {
   font-style : italic;
   font-family: sans-serif;
@@ -46,7 +46,7 @@ h5,
 h6 {
   color: var(--badge-color);
 }
-strong {
+p strong {
   display      : auto;
   background   : var(--badge-background);
   padding      : 2px;

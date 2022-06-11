@@ -1,9 +1,9 @@
 html {
-  --background      : #787777;
+  --background      : #adacac;
   --box-shadow      : #1b2701;
   --text            : #fff;
   --text-faded      : #080808;
-  --badge-background: rgba(0, 0, 0, 0.1);
+  --badge-background: #e5e3b645;
   --badge-color     : #0b81d0;
 }
 .theme-dark {
