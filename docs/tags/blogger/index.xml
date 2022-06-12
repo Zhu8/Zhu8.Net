@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blogger on 猪八的网：浮生志</title><link>https://zhu8.net/tags/blogger/</link><description>Recent content in Blogger on 猪八的网：浮生志</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Zhu8.Net 🚀 [&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">CC BY-SA&lt;/a>]</copyright><lastBuildDate>Mon, 11 Jan 2010 12:01:41 +0800</lastBuildDate><atom:link href="https://zhu8.net/tags/blogger/index.xml" rel="self" type="application/rss+xml"/><item><title>2010新开始</title><link>https://zhu8.net/blog/2010/01/new-start-form-2010.html</link><pubDate>Mon, 11 Jan 2010 12:01:41 +0800</pubDate><guid>https://zhu8.net/blog/2010/01/new-start-form-2010.html</guid><description>&lt;p>2010年终于到来了，北京的两场大雪也下的扎扎实实，我的未来却还没有扎实，中国的未来吾等草民还是继续为我们的那座小屋努力吧！&lt;/p>
 &lt;p>也许是厌倦了不停的升级，虽然SixApart终于在两次跳票后发布了&lt;strong>Movable Type 5&lt;/strong>，Wordpress的更新速度更甚，反而是默默的Blogger，被关注的次数也越来越少，所以，我还是继续小众好了。害怕&lt;del>看不到&lt;/del>这里的更新？&lt;strong>Who Cares!&lt;/strong>&lt;/p>
 &lt;span class="center">
-&lt;p>&lt;img src="https://zhu8.net/images/posts/nuhou.png" alt="怒吼吧，中国！——李桦 1935年" title="怒吼吧，中国！——李桦 1935年">
+&lt;p>&lt;img src="https://zhu8.net/images/posts/nuhou.png" alt="怒吼吧，中国！——李桦 1935年" title="怒吼吧，中国！——李桦 1935年" />
 &lt;strong>&lt;em>版画：怒吼吧，中国！——李桦 1935&lt;/em>&lt;/strong>&lt;/p>
 &lt;/span></description></item><item><title>Blogger绑定自定义域名404错误</title><link>https://zhu8.net/blog/2009/01/blogger-custom-domain-404-error.html</link><pubDate>Mon, 19 Jan 2009 12:46:24 +0800</pubDate><guid>https://zhu8.net/blog/2009/01/blogger-custom-domain-404-error.html</guid><description>&lt;p>&lt;strong>问题&lt;/strong>：今天下午的时候blogger绑定的域名https://zhu8.net提示：&lt;strong>&amp;ldquo;The page cannot be found. (Error 404)&amp;rdquo;&lt;/strong>。不知道出现404错误是什么原因，大概搜了一下，发现原来是因为DNS缓存的问题，可能在Godaddy上的设置过2-3天才会生效。&lt;/p>
 &lt;p>&lt;strong>解决方法&lt;/strong>：将你的Blogger先切换回.blogspot.com，然后再切换回来。一切OK！（明后天再继续观察一下，因为我选中了redirect zhu8.net到 &lt;a href="https://www.zhu8.net">www.zhu8.net&lt;/a>）&lt;/p></description></item><item><title>看图说话：绑定Godaddy域名到Blogger</title><link>https://zhu8.net/blog/2009/01/google-blogger-custom-domain-godaddy.html</link><pubDate>Fri, 16 Jan 2009 17:05:32 +0800</pubDate><guid>https://zhu8.net/blog/2009/01/google-blogger-custom-domain-godaddy.html</guid><description>&lt;p>为了用上已强大的Blogger，同时不闲置自己的域名，觉得绑定到Blogger上来，但是&lt;strong>万恶的土啬作祟&lt;/strong>，拼命封我们的ghs.google.com，没有办法，只好曲线救国。 废话少说，以我的域名Zhu8.Net为例，域名位于同样被频繁&lt;strong>土啬&lt;/strong>的Godaddy。相信很多域名位于天朝管理之外的朋友都有这样的问题，经过万能的Google和自己的摸索，总结如下：&lt;/p>
 &lt;p>**第一步：**绑定域名，在Blogger里很好设置，这里就不赘述了。我使用&lt;a href="http://chenjun.com/">http://chenjun.com/&lt;/a> 绑定了我的Blogger，故而在Godaddy里面如下设置：&lt;/p>
-&lt;p>&lt;img src="https://zhu8.net/images/posts/godaddy-11.png" alt="">&lt;/p>
+&lt;p>&lt;img src="https://zhu8.net/images/posts/godaddy-11.png" alt="" />&lt;/p>
 &lt;p>请列位看官自行看图说话，如何创造自己的ghs.xxx.com。实在看不懂请留言。ghs.google.com的IP有&lt;a href="http://out.zhu8.net/ghs">这个地方&lt;/a>查很不错&lt;/p>
 &lt;p>**第二步：**解决www和non-www制定不同的问题。 由于Google只能绑定子域名（www亦是一种特殊格式的子域名），故我们要让根域名也指向到这里，&lt;del>如果你是Host domain在Godaddy，只要使用Forward就可以了。&lt;/del>（&lt;strong>经反复测试，此方法没有用，只有使用.htaccess解决，详见：[注释]&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/strong>）如下：&lt;/p>
-&lt;p>&lt;img src="https://zhu8.net/images/posts/godaddy-8.png" alt="">&lt;br>
-&lt;img src="https://zhu8.net/images/posts/godaddy-9.png" alt="">&lt;/p>
+&lt;p>&lt;img src="https://zhu8.net/images/posts/godaddy-8.png" alt="" />&lt;br />
+&lt;img src="https://zhu8.net/images/posts/godaddy-9.png" alt="" />&lt;/p>
 &lt;p>这样本来就算完了，但是因为无孔不入的&lt;strong>土啬&lt;/strong>又来了。封掉了不知道多少Godaddy的IP，所以如果你不幸如果，域名的IP被封了，那你就需要换IP了。Godaddy的域名自带有免费空间，我们可以通过切换域名空间的IP。网上有很多教程，但是目前来说Godaddy把它藏的深了一点，不再是Switch Operating System，换成了&lt;strong>Upgrade/Downgrade Hosting Account&lt;/strong>。图解如下：&lt;/p>
-&lt;p>&lt;img src="https://zhu8.net/images/posts/godaddy-1.png" alt="">&lt;br>
-&lt;img src="https://zhu8.net/images/posts/godaddy-2.png" alt="">&lt;br>
-&lt;img src="https://zhu8.net/images/posts/godaddy-3.png" alt="">&lt;br>
-&lt;img src="https://zhu8.net/images/posts/godaddy-4.png" alt="">&lt;br>
-&lt;img src="https://zhu8.net/images/posts/godaddy-5.png" alt="">&lt;br>
-&lt;img src="https://zhu8.net/images/posts/godaddy-6.png" alt="">&lt;br>
-&lt;img src="https://zhu8.net/images/posts/godaddy-7.png" alt="">&lt;/p>
+&lt;p>&lt;img src="https://zhu8.net/images/posts/godaddy-1.png" alt="" />&lt;br />
+&lt;img src="https://zhu8.net/images/posts/godaddy-2.png" alt="" />&lt;br />
+&lt;img src="https://zhu8.net/images/posts/godaddy-3.png" alt="" />&lt;br />
+&lt;img src="https://zhu8.net/images/posts/godaddy-4.png" alt="" />&lt;br />
+&lt;img src="https://zhu8.net/images/posts/godaddy-5.png" alt="" />&lt;br />
+&lt;img src="https://zhu8.net/images/posts/godaddy-6.png" alt="" />&lt;br />
+&lt;img src="https://zhu8.net/images/posts/godaddy-7.png" alt="" />&lt;/p>
 &lt;p>等待不过十几分钟，虽然Account Details里面的Status还是Pending Account Change，但是IP地址已经换了，Total DNS Control Panel里面的A Records已经变成了新的IP，等待……生效，一切OK！&lt;/p>
 &lt;p>&lt;strong>P.S:&lt;/strong>_Google Apps_等所有**&lt;em>Google Custom Domain&lt;/em>**都适用此法。有问题，请留言！&lt;/p>
 &lt;p>至此全部完成。请测试：&lt;a href="https://zhu8.net/" title="Zhu8.Net">https://zhu8.net&lt;/a>&lt;/p>
 &lt;div class="footnotes" role="doc-endnotes">
-&lt;hr>
+&lt;hr />
 &lt;ol>
 &lt;li id="fn:1">
 &lt;p>注释：使用编辑器，如EditPlus新建UTF-8的新文件，内容为：&lt;/p>
 &lt;blockquote>
-&lt;p>RewriteEngine&lt;br>
-RewriteCond %{HTTP_HOST} ^zhu8.net&lt;br>
+&lt;p>RewriteEngine&lt;br />
+RewriteCond %{HTTP_HOST} ^zhu8.net&lt;br />
 RewriteRule (.*) &lt;a href="http://chenjun.com/$1">http://chenjun.com/$1&lt;/a> [R=301,L]&lt;/p>
 &lt;/blockquote>
 &lt;p>请自行更改域名为你的域名即可，将文件保存为**.htaccess**。使用&lt;strong>ASCII&lt;/strong>格式上传到你的Godaddy免费空间根目录，文件属性&lt;strong>644&lt;/strong>。&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/div></description></item><item><title>ScribeFire添加Blogger出错及解决</title><link>https://zhu8.net/blog/2008/12/error-scribefire-to-blogger.html</link><pubDate>Fri, 26 Dec 2008 15:33:00 +0800</pubDate><guid>https://zhu8.net/blog/2008/12/error-scribefire-to-blogger.html</guid><description>&lt;p>ScribeFire添加Blogger出错，按照常规的步骤来，提示消息只是说出错，没有任何内容。&lt;/p>
-&lt;p>&lt;span class="center">&lt;img src="https://zhu8.net/images/posts/blogger-error.jpg" alt="">&lt;/span>&lt;/p>
+&lt;p>&lt;span class="center">&lt;img src="https://zhu8.net/images/posts/blogger-error.jpg" alt="" />&lt;/span>&lt;/p>
 &lt;p>解决方法：把Http://改成&lt;span style='color: red;'>&lt;strong>Https://&lt;/strong>&lt;/span>，如图：&lt;/p>
-&lt;p>&lt;span class="center">&lt;img src="https://zhu8.net/images/posts/Blogger-set.png" alt="">&lt;/span>&lt;/p>
+&lt;p>&lt;span class="center">&lt;img src="https://zhu8.net/images/posts/Blogger-set.png" alt="" />&lt;/span>&lt;/p>
 &lt;p>&lt;strong>Ok，搞定！&lt;/strong>&lt;/p>
 &lt;blockquote>
 &lt;p>P.S：为了凑点字数，同时测试一下新买的键盘Dell SK-8115。发表感想若干：&lt;/p>
@@ -64,6 +64,6 @@ RewriteRule (.*) &lt;a href="http://chenjun.com/$1">http://chenjun.com/$1&lt;/a>
 &lt;p>&lt;strong>&lt;em>延伸阅读：什么是&lt;a href="http://zh.wikipedia.org/wiki/HTTPS">HTTPS&lt;/a>&lt;/em>&lt;/strong>&lt;/p>
 &lt;/blockquote>
 &lt;blockquote>
-&lt;p>&lt;strong>HTTPS&lt;/strong>以保密为目标研发，简单讲是&lt;a href="http://zh.wikipedia.org/wiki/HTTP" title="HTTP">HTTP&lt;/a>的安全版。其安全基础是SSL协议，因此加密的详细内容请看&lt;a href="http://zh.wikipedia.org/wiki/SSL" title="SSL">SSL&lt;/a>。全称&lt;strong>Hypertext Transfer Protocol over Secure Socket Layer&lt;/strong>。&lt;br>
+&lt;p>&lt;strong>HTTPS&lt;/strong>以保密为目标研发，简单讲是&lt;a href="http://zh.wikipedia.org/wiki/HTTP" title="HTTP">HTTP&lt;/a>的安全版。其安全基础是SSL协议，因此加密的详细内容请看&lt;a href="http://zh.wikipedia.org/wiki/SSL" title="SSL">SSL&lt;/a>。全称&lt;strong>Hypertext Transfer Protocol over Secure Socket Layer&lt;/strong>。&lt;br />
 它是一个&lt;a href="http://zh.wikipedia.org/wiki/URI" title="URI">URI&lt;/a> scheme，句法类同&lt;tt>http:&lt;/tt>体系。它使用了HTTP，但HTTPS存在不同于HTTP的默认&lt;a href="http://zh.wikipedia.org/wiki/%E7%AB%AF%E5%8F%A3" title="端口">端口&lt;/a>及一个加密/身份验证层（在&lt;a href="http://zh.wikipedia.org/wiki/HTTP" title="HTTP">HTTP&lt;/a>与&lt;a href="http://zh.wikipedia.org/wiki/TCP" title="TCP">TCP&lt;/a>之间）。这个协议的最初研发由&lt;a href="http://zh.wikipedia.org/wiki/%E7%BD%91%E6%99%AF%E5%85%AC%E5%8F%B8" title="网景公司">网景公司&lt;/a>进行，提供了&lt;a href="http://zh.wikipedia.org/wiki/%E8%BA%AB%E4%BB%BD%E9%AA%8C%E8%AF%81" title="身份验证">身份验证&lt;/a>与&lt;a href="http://zh.wikipedia.org/wiki/%E5%8A%A0%E5%AF%86" title="加密">加密&lt;/a>通讯方法，现在它被广泛用于&lt;a href="http://zh.wikipedia.org/wiki/%E4%BA%92%E8%81%94%E7%BD%91" title="互联网">互联网&lt;/a>上安全敏感的通讯，例如交易支付方面。&lt;/p>
 &lt;/blockquote></description></item></channel></rss>

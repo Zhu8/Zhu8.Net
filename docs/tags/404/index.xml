@@ -10,8 +10,8 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>RewriteRule .(js¦mp3¦wma)$&lt;span style="color:#a61717;background-color:#e3d2d2">&amp;amp;&lt;/span>[F]
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>我是把404和500放在一个页面的，省得麻烦，所以就想弄一个单纯的搜索页面，一直发现Live!对我的站索引还蛮全的，所以除了加上Google之外，还想加上Live Search的（&lt;a href="http://help.live.com/help.aspx?project=wl_webmasters%EF%BF%BDmkt=zh-cn" title="Live Search 站点所有者帮助">见此&lt;/a>），但是在编码上遇到了问题：&lt;/p>
 &lt;blockquote>
-&lt;p>在下面的代码中，必须用您网站所用语言所对应的三位或四位数代码页编号来替换&amp;quot;您的网页所用代码页&amp;quot;。&lt;br>
-例如，如果您的网站是用源于拉丁文的语言（英语、法语或德语）编写的，则用 1252 编号来取代此指令：value=&amp;ldquo;1252&amp;rdquo;&lt;br>
+&lt;p>在下面的代码中，必须用您网站所用语言所对应的三位或四位数代码页编号来替换&amp;quot;您的网页所用代码页&amp;quot;。&lt;br />
+例如，如果您的网站是用源于拉丁文的语言（英语、法语或德语）编写的，则用 1252 编号来取代此指令：value=&amp;ldquo;1252&amp;rdquo;&lt;br />
 有关各语言所对应的代码页值，请参阅 &lt;a href="http://g.msn.com/0HEWL_WEBMASTERSZHCN9/91008" title="Code Pages Supported by Windows">Windows 支持的代码页&lt;/a>网页。&lt;/p>
 &lt;/blockquote>
 &lt;p>很显然，里面有GBK码（代码：936），但是没有UTF-8码（应该不是我没有找到），只好到网上去找，不经意发现了&lt;strong>UTF-8的代码：65001&lt;/strong>，于是将代码一修改，就成了。详细可以到&lt;a href="http://chenjun.com/404.html" title="404/500 错误页面">这个页面&lt;/a>去看下源代码就好了。&lt;/p>

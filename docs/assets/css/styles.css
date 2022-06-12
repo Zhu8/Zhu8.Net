@@ -66,10 +66,10 @@ p strong {
   font-size: 150%;
 }
 .toggle:before {
-  content: "🔆";
+  content: "🌒";
 }
 .toggle.active:before {
-  content: "🌒";
+  content: "🔆";
 }
 .toggle.animate {
   animation: animate 0.3s cubic-bezier(0.4, 0, 0.2, 1);

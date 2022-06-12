@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Plugin on 猪八的网：浮生志</title><link>https://zhu8.net/tags/plugin/</link><description>Recent content in Plugin on 猪八的网：浮生志</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Zhu8.Net 🚀 [&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">CC BY-SA&lt;/a>]</copyright><lastBuildDate>Tue, 16 Jun 2009 20:58:44 +0800</lastBuildDate><atom:link href="https://zhu8.net/tags/plugin/index.xml" rel="self" type="application/rss+xml"/><item><title>Movable Type中文化书签插件-Bookmarks Chinese</title><link>https://zhu8.net/blog/2009/06/bookmarks-chinese.html</link><pubDate>Tue, 16 Jun 2009 20:58:44 +0800</pubDate><guid>https://zhu8.net/blog/2009/06/bookmarks-chinese.html</guid><description>&lt;h3 id="描述">&lt;strong>描述：&lt;/strong>&lt;/h3>
-&lt;p>&lt;em>&lt;strong>Bookmarks Chinese&lt;/strong>&lt;/em> 是我在使用了一些如&lt;a href="http://www.addthis.com/" title="AddThis">addthis.com&lt;/a>的按钮之后，发现对中文支持很差，所以弄的一个中文化的书签插件如果你还需要其他的按钮，请自行参考开发即可。&lt;br>
-作者信息：Zhu8 (&lt;a href="https://zhu8.net" title="Zhu8">https://zhu8.net&lt;/a>)&lt;br>
-插件地址：&lt;a href="https://zhu8.net/blog/2009/06/bookmarks-chinese.html" title="Zhu8">https://zhu8.net/blog/2009/06/bookmarks-chinese.html&lt;/a>&lt;br>
+&lt;p>&lt;em>&lt;strong>Bookmarks Chinese&lt;/strong>&lt;/em> 是我在使用了一些如&lt;a href="http://www.addthis.com/" title="AddThis">addthis.com&lt;/a>的按钮之后，发现对中文支持很差，所以弄的一个中文化的书签插件如果你还需要其他的按钮，请自行参考开发即可。&lt;br />
+作者信息：Zhu8 (&lt;a href="https://zhu8.net" title="Zhu8">https://zhu8.net&lt;/a>)&lt;br />
+插件地址：&lt;a href="https://zhu8.net/blog/2009/06/bookmarks-chinese.html" title="Zhu8">https://zhu8.net/blog/2009/06/bookmarks-chinese.html&lt;/a>&lt;br />
 插件版本：1.0 Final (2009.6.4)&lt;/p>
 &lt;h3 id="插件结构font">&lt;strong>插件结构：&lt;/strong>&lt;/font>&lt;/h3>
 &lt;blockquote>
-&lt;p>mt-static/&lt;br>
-　　　　plugins/&lt;br>
-　　　　　　　　BookmarksChinese/&lt;br>
-　　　　　　　　　　　　style.css&lt;br>
-　　　　　　　　　　　　images/&lt;br>
-　　　　　　　　　　　　　　addtoany.png&lt;br>
-　　　　　　　　　　　　　　google.png&lt;br>
-　　　　　　　　　　　　　　digg.png&lt;br>
-　　　　　　　　　　　　　　technorati.png&lt;br>
-　　　　　　　　　　　　　　delicious.png&lt;br>
-　　　　　　　　　　　　　　friendfeed.png&lt;br>
+&lt;p>mt-static/&lt;br />
+　　　　plugins/&lt;br />
+　　　　　　　　BookmarksChinese/&lt;br />
+　　　　　　　　　　　　style.css&lt;br />
+　　　　　　　　　　　　images/&lt;br />
+　　　　　　　　　　　　　　addtoany.png&lt;br />
+　　　　　　　　　　　　　　google.png&lt;br />
+　　　　　　　　　　　　　　digg.png&lt;br />
+　　　　　　　　　　　　　　technorati.png&lt;br />
+　　　　　　　　　　　　　　delicious.png&lt;br />
+　　　　　　　　　　　　　　friendfeed.png&lt;br />
 　　　　　　　　　　　　　　twitter.png&lt;/p>
 &lt;/blockquote>
 &lt;blockquote>
-&lt;p>cgi-bin/mt/&lt;br>
-　　　　plugins/&lt;br>
-　　　　　　　　BookmarksChinese/&lt;br>
-　　　　　　　　　　　　BookmarksChinese.pl&lt;br>
-　　　　　　　　　　　　php/&lt;br>
-　　　　　　　　　　　　　　function.mtaddtoanyurl.php&lt;br>
-　　　　　　　　　　　　　　function.mtgoogleurl.php&lt;br>
-　　　　　　　　　　　　　　function.mtdiggurl.php&lt;br>
-　　　　　　　　　　　　　　function.mttechnoratiurl.php&lt;br>
-　　　　　　　　　　　　　　function.mtdeliciousurl.php&lt;br>
-　　　　　　　　　　　　　　function.mtfriendfeedurl.php&lt;br>
+&lt;p>cgi-bin/mt/&lt;br />
+　　　　plugins/&lt;br />
+　　　　　　　　BookmarksChinese/&lt;br />
+　　　　　　　　　　　　BookmarksChinese.pl&lt;br />
+　　　　　　　　　　　　php/&lt;br />
+　　　　　　　　　　　　　　function.mtaddtoanyurl.php&lt;br />
+　　　　　　　　　　　　　　function.mtgoogleurl.php&lt;br />
+　　　　　　　　　　　　　　function.mtdiggurl.php&lt;br />
+　　　　　　　　　　　　　　function.mttechnoratiurl.php&lt;br />
+　　　　　　　　　　　　　　function.mtdeliciousurl.php&lt;br />
+　　　　　　　　　　　　　　function.mtfriendfeedurl.php&lt;br />
 　　　　　　　　　　　　　　function.mttwitterurl.php&lt;/p>
 &lt;/blockquote>
 &lt;h3 id="模板标签font">&lt;strong>模板标签：&lt;/strong>&lt;/font>&lt;/h3>
 &lt;blockquote>
-&lt;p>&amp;lt;$MTAddToAnyURL$&amp;gt;&lt;br>
-&amp;lt;$MTDiggURL$&amp;gt;&lt;br>
-&amp;lt;$MTDeliciousURL$&amp;gt;&lt;br>
-&amp;lt;$MTFriendFeedURL$&amp;gt;&lt;br>
-&amp;lt;$MTGoogleURL$&amp;gt;&lt;br>
-&amp;lt;$MTTechnoratiURL$&amp;gt;&lt;br>
+&lt;p>&amp;lt;$MTAddToAnyURL$&amp;gt;&lt;br />
+&amp;lt;$MTDiggURL$&amp;gt;&lt;br />
+&amp;lt;$MTDeliciousURL$&amp;gt;&lt;br />
+&amp;lt;$MTFriendFeedURL$&amp;gt;&lt;br />
+&amp;lt;$MTGoogleURL$&amp;gt;&lt;br />
+&amp;lt;$MTTechnoratiURL$&amp;gt;&lt;br />
 &amp;lt;$MTTwitterURL$&amp;gt;&lt;/p>
 &lt;/blockquote>
 &lt;h3 id="例子">&lt;strong>例子：&lt;/strong>&lt;/h3>
-&lt;p>&lt;img src="https://zhu8.net/images/posts/BookmarksChinese.png" alt="Bookmarks Chinese Screenshot" title="Bookmarks Chinese Screenshot">&lt;/p>
+&lt;p>&lt;img src="https://zhu8.net/images/posts/BookmarksChinese.png" alt="Bookmarks Chinese Screenshot" title="Bookmarks Chinese Screenshot" />&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#000080">a&lt;/span> &lt;span style="color:#008080">class&lt;/span>&lt;span style="color:#000;font-weight:bold">=&lt;/span>&lt;span style="color:#d14">&amp;#34;delicious&amp;#34;&lt;/span> &lt;span style="color:#008080">href&lt;/span>&lt;span style="color:#000;font-weight:bold">=&lt;/span>&lt;span style="color:#d14">&amp;#34;&amp;lt;$MTDeliciousURL$&amp;gt;&amp;#34;&lt;/span> &lt;span style="color:#008080">title&lt;/span>&lt;span style="color:#000;font-weight:bold">=&lt;/span>&lt;span style="color:#d14">&amp;#34;收藏到美味书签&amp;#34;&lt;/span> &lt;span style="color:#008080">target&lt;/span>&lt;span style="color:#000;font-weight:bold">=&lt;/span>&lt;span style="color:#d14">&amp;#34;_blank&amp;#34;&lt;/span>&amp;gt;&amp;lt;/&lt;span style="color:#000080">a&lt;/span>&amp;gt;
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="如何使用">&lt;strong>如何使用：&lt;/strong>&lt;/h3>
 &lt;ol>
@@ -155,32 +155,32 @@
 &lt;ul>
 &lt;li>&lt;strong>Tips(小提示)&lt;/strong>：&lt;/li>
 &lt;/ul>
-&lt;p>Yahoo!我已经修改成&lt;a href="http://cn.yahoo.com/" title="雅虎中国">Yahoo!中国&lt;/a>的&lt;a href="http://myweb.cn.yahoo.com/" title="雅虎收藏+">Yahoo!收藏&lt;/a>&lt;sup>+&lt;/sup>，更符合国人习惯；你如果想修改图标内容，图标均在icon目录下，增加或修改的图标请注意在&lt;em>add-bookmarks.php&lt;/em>中也要记得修改图标的源文件地址。&lt;br>
-&lt;em>&lt;strong>Update@2006/09/05&lt;/strong>&lt;/em>&lt;br>
-将所使用的五个书签的代码做了一次更新，确保每个对中文正确识别。其中Furl对中文的支持最不好，我使用其他人所最常使用的代码均会使中文标题变成乱码，所以我最后还是选择了一个弹出窗口的，可能使用&lt;strong>窗口block&lt;/strong>的会有一定影响。&lt;br>
-更多书签网站请参考：&lt;a href="http://blog.donews.com/rss/archive/2005/10/16/590504.aspx" title="网摘大全1016最新整理版　(rss8.net 木木牛牛整理) ">网摘大全1016最新整理版　(rss8.net 木木牛牛整理) &lt;/a>&lt;br>
-另一种方式请参考：&lt;a href="http://www.dustlonely.com/2006/08/24/blog-rss/" title="无需插件 给你的BLOG手动添加 网摘 代码　图标下载">无需插件 给你的BLOG手动添加 网摘 代码　图标下载&lt;/a>。&lt;br>
-欢迎你使用Trackback告知我你使用了该插件 &lt;em>&lt;strong>Updated on 2006.11.28&lt;/strong>&lt;/em>&lt;br>
-加入 &lt;a href="http://cang.baidu.com/" title="百度搜藏">百度搜藏&lt;/a>&lt;br>
-&lt;em>&lt;strong>Updated on 2008.03.18&lt;/strong>&lt;/em>&lt;br>
-加入 &lt;a href="http://www.diglog.com/" title="奇客发现 有趣新鲜">Diglog!奇客发现&lt;/a>&lt;br>
-加入 &lt;a href="http://fanfou.com/" title="饭否&amp;amp;迷你博客 随时随地发消息">饭否&lt;/a>&lt;br>
-加入 &lt;a href="http://shuqian.qq.com/" title="QQ书签">QQ书签&lt;/a>&lt;br>
+&lt;p>Yahoo!我已经修改成&lt;a href="http://cn.yahoo.com/" title="雅虎中国">Yahoo!中国&lt;/a>的&lt;a href="http://myweb.cn.yahoo.com/" title="雅虎收藏+">Yahoo!收藏&lt;/a>&lt;sup>+&lt;/sup>，更符合国人习惯；你如果想修改图标内容，图标均在icon目录下，增加或修改的图标请注意在&lt;em>add-bookmarks.php&lt;/em>中也要记得修改图标的源文件地址。&lt;br />
+&lt;em>&lt;strong>Update@2006/09/05&lt;/strong>&lt;/em>&lt;br />
+将所使用的五个书签的代码做了一次更新，确保每个对中文正确识别。其中Furl对中文的支持最不好，我使用其他人所最常使用的代码均会使中文标题变成乱码，所以我最后还是选择了一个弹出窗口的，可能使用&lt;strong>窗口block&lt;/strong>的会有一定影响。&lt;br />
+更多书签网站请参考：&lt;a href="http://blog.donews.com/rss/archive/2005/10/16/590504.aspx" title="网摘大全1016最新整理版　(rss8.net 木木牛牛整理) ">网摘大全1016最新整理版　(rss8.net 木木牛牛整理) &lt;/a>&lt;br />
+另一种方式请参考：&lt;a href="http://www.dustlonely.com/2006/08/24/blog-rss/" title="无需插件 给你的BLOG手动添加 网摘 代码　图标下载">无需插件 给你的BLOG手动添加 网摘 代码　图标下载&lt;/a>。&lt;br />
+欢迎你使用Trackback告知我你使用了该插件 &lt;em>&lt;strong>Updated on 2006.11.28&lt;/strong>&lt;/em>&lt;br />
+加入 &lt;a href="http://cang.baidu.com/" title="百度搜藏">百度搜藏&lt;/a>&lt;br />
+&lt;em>&lt;strong>Updated on 2008.03.18&lt;/strong>&lt;/em>&lt;br />
+加入 &lt;a href="http://www.diglog.com/" title="奇客发现 有趣新鲜">Diglog!奇客发现&lt;/a>&lt;br />
+加入 &lt;a href="http://fanfou.com/" title="饭否&amp;amp;迷你博客 随时随地发消息">饭否&lt;/a>&lt;br />
+加入 &lt;a href="http://shuqian.qq.com/" title="QQ书签">QQ书签&lt;/a>&lt;br />
 加入 &lt;a href="http://technorati.com/faves/" title="Technorati Favorites">Technorati Favorites&lt;/a>&lt;/p>
 &lt;p>&lt;a id="Eng">&lt;em>English Vision:&lt;/em>&lt;/a>&lt;/p>
-&lt;p>&lt;strong>Add Bookmarks for WordPress&lt;/strong>&lt;br>
-&lt;strong>Plugin Name&lt;/strong>: Add Bookmarks&lt;br>
-&lt;strong>Version&lt;/strong>: 0.4 &lt;em>(Last update:2008/03/18)&lt;/em>&lt;br>
-&lt;strong>Description&lt;/strong>: Help your visitors to add your entry to Social Bookmark like Blogmarks,delicious,Furl,Yahoo,Google,Baidu,QQ,Techmorati and so on.. (You can add by your self &lt;strong>very simply&lt;/strong>,You can choice either &lt;strong>TEXT&lt;/strong> or &lt;strong>ICON&lt;/strong>)&lt;br>
-&lt;strong>Requires at least&lt;/strong>: WordPress 1.5&lt;br>
-&lt;strong>Tested up to&lt;/strong>: WordPress 2.5&lt;br>
-&lt;strong>Author&lt;/strong>: Zhu8&lt;br>
-&lt;strong>Plugin URI&lt;/strong>: &lt;a href="https://zhu8.net/blog/2006/09/wordpress-plugin-add-bookmarks.html">https://zhu8.net/blog/2006/09/wordpress-plugin-add-bookmarks.html&lt;/a>&lt;br>
-&lt;strong>Download&lt;/strong>:&lt;a href="https://zhu8.net/uploads/add-bookmarks.zip" title="Download This Plugin">add-bookmarks.zip&lt;/a>&lt;br>
-&lt;strong>Usage&lt;/strong>:1) Upload the &lt;strong>folder&lt;/strong> to the &lt;em>/wp-content/plugins/&lt;/em>.&lt;br>
+&lt;p>&lt;strong>Add Bookmarks for WordPress&lt;/strong>&lt;br />
+&lt;strong>Plugin Name&lt;/strong>: Add Bookmarks&lt;br />
+&lt;strong>Version&lt;/strong>: 0.4 &lt;em>(Last update:2008/03/18)&lt;/em>&lt;br />
+&lt;strong>Description&lt;/strong>: Help your visitors to add your entry to Social Bookmark like Blogmarks,delicious,Furl,Yahoo,Google,Baidu,QQ,Techmorati and so on.. (You can add by your self &lt;strong>very simply&lt;/strong>,You can choice either &lt;strong>TEXT&lt;/strong> or &lt;strong>ICON&lt;/strong>)&lt;br />
+&lt;strong>Requires at least&lt;/strong>: WordPress 1.5&lt;br />
+&lt;strong>Tested up to&lt;/strong>: WordPress 2.5&lt;br />
+&lt;strong>Author&lt;/strong>: Zhu8&lt;br />
+&lt;strong>Plugin URI&lt;/strong>: &lt;a href="https://zhu8.net/blog/2006/09/wordpress-plugin-add-bookmarks.html">https://zhu8.net/blog/2006/09/wordpress-plugin-add-bookmarks.html&lt;/a>&lt;br />
+&lt;strong>Download&lt;/strong>:&lt;a href="https://zhu8.net/uploads/add-bookmarks.zip" title="Download This Plugin">add-bookmarks.zip&lt;/a>&lt;br />
+&lt;strong>Usage&lt;/strong>:1) Upload the &lt;strong>folder&lt;/strong> to the &lt;em>/wp-content/plugins/&lt;/em>.&lt;br />
 2) Active it .Add&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">&amp;lt;?&lt;/span>php &lt;span style="color:#000;font-weight:bold">if&lt;/span>(function_exists(&lt;span style="color:#d14">&amp;#39;add_bookmarks&amp;#39;&lt;/span>)) { add_bookmarks(); } &lt;span style="color:#999;font-weight:bold;font-style:italic">?&amp;gt;&lt;/span>&lt;span style="color:#a61717;background-color:#e3d2d2">
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>to where you want to put (I put it in &lt;em>single.php&lt;/em> &lt;strong>before&lt;/strong> &lt;em>postmetadata&lt;/em>).&lt;br>
-DONE!&lt;br>
-3)If you want to Add Your Bookmarks,open &lt;strong>add-bookmarks.php&lt;/strong> and config it in your Editor(as Editplus,Notepad++) in &lt;strong>UTF-8&lt;/strong>.&lt;br>
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>to where you want to put (I put it in &lt;em>single.php&lt;/em> &lt;strong>before&lt;/strong> &lt;em>postmetadata&lt;/em>).&lt;br />
+DONE!&lt;br />
+3)If you want to Add Your Bookmarks,open &lt;strong>add-bookmarks.php&lt;/strong> and config it in your Editor(as Editplus,Notepad++) in &lt;strong>UTF-8&lt;/strong>.&lt;br />
 Fell free to &lt;a href="https://zhu8.net/about/">Contact&lt;/a> me and Trackback here!&lt;/p></description></item></channel></rss>

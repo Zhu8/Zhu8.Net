@@ -10,6 +10,6 @@
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>之后就可以在线编辑，增加，上传，发布 &lt;code>Hugo&lt;/code>命令，然后直接用 Gitlab 自带的Push，就可以了。当然，前提是你得绑定下面说的 &lt;a href="https://vercel.com" title="Develop. Preview. Ship. For the best frontend teams – Vercel">Vercel&lt;/a>&lt;/p>
 &lt;h3 id="使用vercel">使用Vercel&lt;/h3>
 &lt;p>网上教程太多，不多说啦，绑定你的 &lt;a href="https://gitlab.com/" title="Gitlab">Gitlab&lt;/a> 即可。支持 &lt;strong>“HTTPS”&lt;/strong> ，支持 &lt;strong>“Hugo”&lt;/strong> 指定版本，支持 &lt;strong>多域名绑定&lt;/strong> ，支持 &lt;strong>域名跳转&lt;/strong> ，谁用谁知道。
-&lt;img src="https://zhu8.net/images/posts/Vercel.png" alt="Vervel 界面" title="Vercel 界面">&lt;/p>
+&lt;img src="https://zhu8.net/images/posts/Vercel.png" alt="Vervel 界面" title="Vercel 界面" />&lt;/p>
 &lt;h3 id="结语">结语&lt;/h3>
 &lt;p>经过以上部署之后，你只需要购买域名，其他的，&lt;strong>全部交给云&lt;/strong> 吧，而且，&lt;strong>全免费&lt;/strong> 哦！完美，安心！祝你使用愉快！&lt;/p></description></item></channel></rss>

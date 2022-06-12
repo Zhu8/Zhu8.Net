@@ -21,28 +21,33 @@
 	<meta name="msapplication-TileColor" content="#da532c" />
 	<meta name="theme-color" content="#ffffff" />
 	<title>{{ if .IsHome }}{{ else }}{{ if .Title }}{{ .Title }} | {{ end }}{{ end }}{{ .Site.Title }}</title>
-	{{ $stylesheet := .Site.Data.webpack_assets.app }}{{ with $stylesheet.css }}<link type="text/css" rel="stylesheet" href="{{ relURL (printf "%s%s" "dist/" .) }}" media="all" />{{ end }}
-	<!-- {{ block "favicon" . }}{{ partial "site-favicon.html" . }} {{ end }} --><link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+	{{ $stylesheet := .Site.Data.webpack_assets.app }}{{ with $stylesheet.css }}
+	<link type="text/css" rel="stylesheet" href="{{ relURL (printf "%s%s" "dist/" .) }}" media="all" />{{ end }}
+	<!-- {{ block "favicon" . }}{{ partial "site-favicon.html" . }} {{ end }} -->
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
 	<link rel="manifest" href="/site.webmanifest" />
 	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
-	{{ with .OutputFormats.Get "RSS" }}<link rel="alternate" href="{{ .RelPermalink }}" type="application/rss+xml" title="{{ site.Title }}" />
+	{{ with .OutputFormats.Get "RSS" }}
+	<link rel="alternate" href="{{ .RelPermalink }}" type="application/rss+xml" title="{{ site.Title }}" />
 	<link rel="feed" href="{{ .RelPermalink }}" type="application/rss+xml" title="{{ site.Title }}" />{{end}}
-	{{ if .IsPage }}<script src="https://unpkg.com/@waline/client/dist/waline.js"></script>
+	{{ if .IsPage }}
+	<script src="https://unpkg.com/@waline/client/dist/waline.js"></script>
 	<link type="text/css" rel="stylesheet" href="https://unpkg.com/@waline/client/dist/waline.css" />{{ end }}
-	<link type="text/css" rel="stylesheet" href="{{"/assets/css/custom.css" | relURL}}" media="all"/>
-	<link type="text/css" rel="stylesheet" href="{{"/assets/css/colors.css" | relURL}}" media="all"/>
-	<link type="text/css" rel="stylesheet" href="{{"/assets/css/styles.css" | relURL}}" media="all"/>
-	{{ if (findRE "<pre" .Content 1) }}
-	<link type="text/css" rel="stylesheet" href="{{"/assets/css/clip.css" | relURL}}" media="all"/>
-	{{ end }}
+	<link type="text/css" rel="stylesheet" href="{{"/assets/css/custom.css" | relURL}}" media="all" />
+	<link type="text/css" rel="stylesheet" href="{{"/assets/css/colors.css" | relURL}}" media="all" />
+	<link type="text/css" rel="stylesheet" href="{{"/assets/css/styles.css" | relURL}}" media="all" />
+	<link type="text/css" rel="stylesheet" href="{{"/assets/css/clip.css" | relURL}}" media="all" />
 	<link type="text/css" rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/5.15.4/css/all.min.css" media="all" />
 	<link rel=preconnect href=https://fonts.gstatic.com crossorigin>
 	<link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Philosopher&family=Noto+Serif+SC&family=ZCOOL+XiaoWei&family=Long+Cang&display=swap" media=print onload='this.media="all"' />
-	<noscript><link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Philosopher&family=Noto+Serif+SC&family=ZCOOL+XiaoWei&family=Long+Cang&display=swap" /></noscript>
-	{{ if ne $.Site.LanguageCode "en"}}<!--pangu.js--><script>
+	<noscript>
+		<link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Philosopher&family=Noto+Serif+SC&family=ZCOOL+XiaoWei&family=Long+Cang&display=swap" />
+	</noscript>
+	{{ if ne $.Site.LanguageCode "en"}}<!--pangu.js-->
+	<script>
 		(function (u, c) {
 			var d = document,
 				t = 'script',

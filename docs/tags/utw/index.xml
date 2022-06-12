@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>UTW on 猪八的网：浮生志</title><link>https://zhu8.net/tags/utw/</link><description>Recent content in UTW on 猪八的网：浮生志</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Zhu8.Net 🚀 [&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">CC BY-SA&lt;/a>]</copyright><lastBuildDate>Sun, 19 Nov 2006 04:17:00 +0800</lastBuildDate><atom:link href="https://zhu8.net/tags/utw/index.xml" rel="self" type="application/rss+xml"/><item><title>解决WP汉化和UTW链接问题</title><link>https://zhu8.net/blog/2006/11/wordpress-language-pack-and-utw-permalink-structure-fix.html</link><pubDate>Sun, 19 Nov 2006 04:17:00 +0800</pubDate><guid>https://zhu8.net/blog/2006/11/wordpress-language-pack-and-utw-permalink-structure-fix.html</guid><description>&lt;p>其实严格说来是因为我在&lt;a href="http://www.512j.com/" title="我要安家">我要安家&lt;/a>的服务器的关系，所以导致无法使用中文语言包。看下我要安家的配置：&lt;/p>
 &lt;blockquote>
-&lt;p>操作系统 Linux Fedora core 1.0(2.4内核)或Linux Fedora core 2.0(2.6内核);&lt;br>
-web服务器 Apache 1.3.31&lt;br>
-PHP版本 PHP 4.3.11&lt;br>
-Mysql版本 Mysql 4.0.20&lt;br>
+&lt;p>操作系统 Linux Fedora core 1.0(2.4内核)或Linux Fedora core 2.0(2.6内核);&lt;br />
+web服务器 Apache 1.3.31&lt;br />
+PHP版本 PHP 4.3.11&lt;br />
+Mysql版本 Mysql 4.0.20&lt;br />
 Zend支持 支持&lt;/p>
 &lt;/blockquote>
 &lt;p>原来都是&lt;strong>PHP版本&lt;/strong>搞的鬼，Wordpress默认的是PHP 5的，但是我现在的服务器是4.3.11，因为在&lt;strong>&lt;strong>wp-includes/gettext.php&lt;/strong>&lt;/strong>中&lt;strong>第105行&lt;/strong>有这样一段代码：&lt;/p>
@@ -18,13 +18,13 @@ Zend支持 支持&lt;/p>
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#998;font-style:italic">&lt;/span> &lt;span style="color:#998;font-style:italic">// $MAGIC2 = (int)&amp;amp;569244523;
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>上面的解决方案是在&lt;a href="http://wordpress.org/support/topic/66818" title="Language set up problem (portuguese) « WordPress Support">WordPress Support&lt;/a>找到的。好了，照上面做完一切OK了，现在可以正常使用中文包（zh_CN.mo以及zh_CN.po）了。这里放下本人正在使用的中文包：&lt;a href="https://zhu8.net/uploads/zh_CN.rar" title="中文汉化包：zh_CN.mo和zh_CN.po">下载&lt;/a>，使用方法如下：&lt;/p>
 &lt;blockquote>
-&lt;p>下载编译好的zh_CN.mo文件(当然你也可以下载zh_CN.po文件然后自行编译)&lt;br>
-在Blog的wp-includes目录下建立languages文件夹&lt;br>
-将zh_CN.mo文件上传到wp-includes/languages文件夹&lt;br>
-修改Blog根目录下的wp-config.php文件，将&lt;br>
-define (‘WPLANG’, “);&lt;br>
-修改为&lt;br>
-define (‘WPLANG’, ‘zh_CN’);&lt;br>
+&lt;p>下载编译好的zh_CN.mo文件(当然你也可以下载zh_CN.po文件然后自行编译)&lt;br />
+在Blog的wp-includes目录下建立languages文件夹&lt;br />
+将zh_CN.mo文件上传到wp-includes/languages文件夹&lt;br />
+修改Blog根目录下的wp-config.php文件，将&lt;br />
+define (‘WPLANG’, “);&lt;br />
+修改为&lt;br />
+define (‘WPLANG’, ‘zh_CN’);&lt;br />
 注意：zh和CN之间是下划线，引号和括号都是英文半角字符。&lt;/p>
 &lt;/blockquote>
 &lt;p>&lt;em>Updated On 2006/11/20：&lt;/em>&lt;/p>

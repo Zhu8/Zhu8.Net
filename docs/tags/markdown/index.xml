@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Markdown on 猪八的网：浮生志</title><link>https://zhu8.net/tags/markdown/</link><description>Recent content in Markdown on 猪八的网：浮生志</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Zhu8.Net 🚀 [&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">CC BY-SA&lt;/a>]</copyright><lastBuildDate>Fri, 04 Jul 2014 23:23:44 +0800</lastBuildDate><atom:link href="https://zhu8.net/tags/markdown/index.xml" rel="self" type="application/rss+xml"/><item><title>重生@Jekyll+GitHub Pages</title><link>https://zhu8.net/blog/2014/07/jekyll-github.html</link><pubDate>Fri, 04 Jul 2014 23:23:44 +0800</pubDate><guid>https://zhu8.net/blog/2014/07/jekyll-github.html</guid><description>&lt;p>本博开篇，Zhu8.Net Reborn!&lt;/p>
 &lt;p>&lt;strong>Enjoy it!&lt;/strong>&lt;/p>
-&lt;p>&lt;img src="https://zhu8.net/images/posts/vector_jerry_8ball_by_svezate-d6lzyyh.png" alt="Jerry and the 8 Ball" title="Jerry and the 8 Ball">&lt;/p>
+&lt;p>&lt;img src="https://zhu8.net/images/posts/vector_jerry_8ball_by_svezate-d6lzyyh.png" alt="Jerry and the 8 Ball" title="Jerry and the 8 Ball" />&lt;/p>
 &lt;h3 id="为何用githubjekyll">为何用Github&amp;amp;Jekyll&lt;/h3>
 &lt;p>我想这不需要多说了吧？&lt;strong>版本记录+Markdown+本地编辑&lt;/strong>。嗯！爽！&lt;/p>
 &lt;h4 id="如何离线或在线编辑">如何离线或在线编辑&lt;/h4>
 &lt;p>经过无数试用，建议Chrome+&lt;a href="https://stackedit.io" title="StackEdit">Stackedit&lt;/a>（&lt;a href="https://chrome.google.com/webstore/detail/stackedit/iiooodelglhkcpgbajoejffhijaclcdg?utm_source=chrome-ntp-launcher">应用商店下载地址&lt;/a>）！一个搞定所有！Stackedit可以支持安装应用商店使用离线功能，并且有完整的快捷键面板以及物理快捷键！&lt;/p>
 &lt;h4 id="markdown新手快捷键参考">Markdown新手快捷键参考&lt;/h4>
 &lt;blockquote>
-&lt;p>加粗——Ctrl+B&lt;br>
-斜体——Ctrl+I&lt;br>
-网址——Ctrl+L&lt;br>
-引用——Ctrl+Q&lt;br>
-代码——Ctrl+K&lt;br>
-图片——Ctrl+G&lt;br>
-有序列表——Ctrl+O&lt;br>
-无序列表——Ctrl+U&lt;br>
-标题——Ctrl+H&lt;br>
+&lt;p>加粗——Ctrl+B&lt;br />
+斜体——Ctrl+I&lt;br />
+网址——Ctrl+L&lt;br />
+引用——Ctrl+Q&lt;br />
+代码——Ctrl+K&lt;br />
+图片——Ctrl+G&lt;br />
+有序列表——Ctrl+O&lt;br />
+无序列表——Ctrl+U&lt;br />
+标题——Ctrl+H&lt;br />
 水平分割线——Ctrl+R&lt;/p>
 &lt;/blockquote>
 &lt;h4 id="模板问题">模板问题&lt;/h4>

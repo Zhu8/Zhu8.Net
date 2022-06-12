@@ -11,6 +11,7 @@ hasCJKLanguage = true
 enableInlineShortcodes = true
 author = "Zhu8"
 publishDir = "docs"
+enableGitInfo = true
 
 [frontmatter]
   date = ['date', 'publishDate', 'lastmod']
@@ -19,10 +20,21 @@ publishDir = "docs"
   publishDate = ['publishDate', 'date']
 
 [markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+      xhtml = true
   [markup.highlight]
-  style = "github"
-  [markup.goldmark.renderer]
-  unsafe = true
+    guessSyntax = true
+    style = 'github'
+    tabWidth = 4
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
+
+[minify]
+  minifyOutput = true
 
 [params]
   math = false
@@ -42,7 +54,7 @@ publishDir = "docs"
   githubName = "Zhu8"
   email = "zhu8@msn.com"
   twitterName = "5CJ"
-  sitedescription = "{陈俊/ChenJun} aka {猪八/Zhu8} 的个人网站，江苏金坛人士，现居金陵，83年生人，电子产品、代码、海淘 、智能设备、网页设计自虐狂，曼联、Doraemon、CS 1.5 死忠粉，王小波门下走狗。"
+  sitedescription = "{陈俊/ChenJun} aka {猪八/Zhu8} 的个人网站，江苏金坛人士，现居金陵，电子产品、代码、海淘 、智能设备、网页设计自虐狂，曼联、Doraemon、CS 1.5 死忠粉，王小波门下走狗。"
   enableWaline = true
   googleSiteVerification = "Mfl8lf6NN0DWPluv8lQpBL-mrKi22ZOcnlKXYURni1Y"
   appletouchicon ="/apple-touch-icon.png"
@@ -58,7 +70,7 @@ publishDir = "docs"
   repoURL = "https://github.com/zhu8/zhu8.net/blob/master"
   repoEditURL = "https://github.com/zhu8/zhu8.net/edit/master"
   displayRAW = true
-  RAWText = "MD"
+  RAWText = "MkDn"
   displayEditLink = true
   editText = "Edit Me?"
 

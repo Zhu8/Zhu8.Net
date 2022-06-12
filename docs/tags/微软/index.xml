@@ -8,16 +8,16 @@
 &lt;p>前面如何将你的通讯录导入到Outlook Express（以下简称OE）我就不说了，我只说如何将OE里面的通讯录导入到E2的过程。&lt;/p>
 &lt;!--more-->
 &lt;p>首先，打开你的OE：&lt;/p>
-&lt;p>&lt;span class="center">&lt;img src="https://zhu8.net/images/posts/e2_contact_outlook_1_thumb.png" alt="e2_contact_outlook_1" title="e2_contact_outlook_1"> &lt;/span>&lt;/p>
+&lt;p>&lt;span class="center">&lt;img src="https://zhu8.net/images/posts/e2_contact_outlook_1_thumb.png" alt="e2_contact_outlook_1" title="e2_contact_outlook_1" /> &lt;/span>&lt;/p>
 &lt;p>然后打开“地址”，就到了如下的页面：&lt;/p>
-&lt;p>&lt;span class="center">&lt;img src="https://zhu8.net/images/posts/e2_contact_outlook_2_thumb.png" alt="e2_contact_outlook_2" title="e2_contact_outlook_2"> &lt;/span>&lt;/p>
+&lt;p>&lt;span class="center">&lt;img src="https://zhu8.net/images/posts/e2_contact_outlook_2_thumb.png" alt="e2_contact_outlook_2" title="e2_contact_outlook_2" /> &lt;/span>&lt;/p>
 &lt;p>剩下的就比较简单了，Ctrl+A（全选）——Ctrl+C（复制），连接你的E2到电脑，然后在你的E2储存卡上新建一个文件夹比如&lt;em>My Contacts&lt;/em>，将这些.vcf文件全部拷进去。断开手机与电脑的连接。接下来就是手机端的操作了，如下图：&lt;/p>
 &lt;p>进入通讯录——按左键——管理联系人：&lt;/p>
-&lt;p>&lt;span class="center">&lt;img src="https://zhu8.net/images/posts/e2_contact_snap_1_thumb.png" alt="e2_contact_snap_1" title="e2_contact_snap_1">&lt;/span>&lt;/p>
+&lt;p>&lt;span class="center">&lt;img src="https://zhu8.net/images/posts/e2_contact_snap_1_thumb.png" alt="e2_contact_snap_1" title="e2_contact_snap_1" />&lt;/span>&lt;/p>
 &lt;p>选择——导入名片：&lt;/p>
-&lt;p>&lt;span class="center">&lt;img src="https://zhu8.net/images/posts/e2_contact_snap_2_thumb.png" alt="e2_contact_snap_2" title="e2_contact_snap_2"> &lt;/span>&lt;/p>
+&lt;p>&lt;span class="center">&lt;img src="https://zhu8.net/images/posts/e2_contact_snap_2_thumb.png" alt="e2_contact_snap_2" title="e2_contact_snap_2" /> &lt;/span>&lt;/p>
 &lt;p>找到你保存.vcf名片文件的文件夹，比如上面的&lt;em>My Contacts&lt;/em>：&lt;/p>
-&lt;p>&lt;span class="center">&lt;img src="https://zhu8.net/images/posts/e2_contact_snap_3_thumb.png" alt="e2_contact_snap_3" title="e2_contact_snap_3"> &lt;/span>&lt;/p>
+&lt;p>&lt;span class="center">&lt;img src="https://zhu8.net/images/posts/e2_contact_snap_3_thumb.png" alt="e2_contact_snap_3" title="e2_contact_snap_3" /> &lt;/span>&lt;/p>
 &lt;p>全选，导入！&lt;/p>
 &lt;p>&lt;strong>至此，你的E2已经与你的OE完全一致了！以后你要同步你的通讯录。重复上述步骤即可！&lt;/strong>&lt;/p>
 &lt;p>&lt;em>此文为响应&lt;a href="http://welog.org/">King&lt;/a>对于我的“&lt;a href="https://zhu8.net/blog/2009/05/braid.html#comment-244">月经&lt;/a>”评论，在七月月底放出……哈哈&lt;/em>&lt;/p></description></item><item><title>二三事</title><link>https://zhu8.net/blog/2006/11/small-cases.html</link><pubDate>Sun, 05 Nov 2006 21:10:10 +0800</pubDate><guid>https://zhu8.net/blog/2006/11/small-cases.html</guid><description>&lt;p>瞎忙乎了老半天，觉得还是记下来好，要不老是犯迷糊。&lt;/p>
@@ -31,8 +31,8 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>RewriteRule .(js¦mp3¦wma)$&lt;span style="color:#a61717;background-color:#e3d2d2">&amp;amp;&lt;/span>[F]
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>我是把404和500放在一个页面的，省得麻烦，所以就想弄一个单纯的搜索页面，一直发现Live!对我的站索引还蛮全的，所以除了加上Google之外，还想加上Live Search的（&lt;a href="http://help.live.com/help.aspx?project=wl_webmasters%EF%BF%BDmkt=zh-cn" title="Live Search 站点所有者帮助">见此&lt;/a>），但是在编码上遇到了问题：&lt;/p>
 &lt;blockquote>
-&lt;p>在下面的代码中，必须用您网站所用语言所对应的三位或四位数代码页编号来替换&amp;quot;您的网页所用代码页&amp;quot;。&lt;br>
-例如，如果您的网站是用源于拉丁文的语言（英语、法语或德语）编写的，则用 1252 编号来取代此指令：value=&amp;ldquo;1252&amp;rdquo;&lt;br>
+&lt;p>在下面的代码中，必须用您网站所用语言所对应的三位或四位数代码页编号来替换&amp;quot;您的网页所用代码页&amp;quot;。&lt;br />
+例如，如果您的网站是用源于拉丁文的语言（英语、法语或德语）编写的，则用 1252 编号来取代此指令：value=&amp;ldquo;1252&amp;rdquo;&lt;br />
 有关各语言所对应的代码页值，请参阅 &lt;a href="http://g.msn.com/0HEWL_WEBMASTERSZHCN9/91008" title="Code Pages Supported by Windows">Windows 支持的代码页&lt;/a>网页。&lt;/p>
 &lt;/blockquote>
 &lt;p>很显然，里面有GBK码（代码：936），但是没有UTF-8码（应该不是我没有找到），只好到网上去找，不经意发现了&lt;strong>UTF-8的代码：65001&lt;/strong>，于是将代码一修改，就成了。详细可以到&lt;a href="http://chenjun.com/404.html" title="404/500 错误页面">这个页面&lt;/a>去看下源代码就好了。&lt;/p>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Vercel on 猪八的网：浮生志</title><link>https://zhu8.net/tags/vercel/</link><description>Recent content in Vercel on 猪八的网：浮生志</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Zhu8.Net 🚀 [&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">CC BY-SA&lt;/a>]</copyright><lastBuildDate>Tue, 17 May 2022 23:40:10 +0800</lastBuildDate><atom:link href="https://zhu8.net/tags/vercel/index.xml" rel="self" type="application/rss+xml"/><item><title>解决浏览器X-Content-Type-Options报错</title><link>https://zhu8.net/blog/2022/05/resolve-browser-x-content-type-options-error.html</link><pubDate>Tue, 17 May 2022 23:40:10 +0800</pubDate><guid>https://zhu8.net/blog/2022/05/resolve-browser-x-content-type-options-error.html</guid><description>&lt;p>&lt;img src="https://zhu8.net/images/posts/http-error.png" alt="HTTP-ERROR RESPONSE">&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Vercel on 猪八的网：浮生志</title><link>https://zhu8.net/tags/vercel/</link><description>Recent content in Vercel on 猪八的网：浮生志</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Zhu8.Net 🚀 [&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">CC BY-SA&lt;/a>]</copyright><lastBuildDate>Tue, 17 May 2022 23:40:10 +0800</lastBuildDate><atom:link href="https://zhu8.net/tags/vercel/index.xml" rel="self" type="application/rss+xml"/><item><title>解决浏览器X-Content-Type-Options报错</title><link>https://zhu8.net/blog/2022/05/resolve-browser-x-content-type-options-error.html</link><pubDate>Tue, 17 May 2022 23:40:10 +0800</pubDate><guid>https://zhu8.net/blog/2022/05/resolve-browser-x-content-type-options-error.html</guid><description>&lt;p>&lt;img src="https://zhu8.net/images/posts/http-error.png" alt="HTTP-ERROR RESPONSE" />&lt;/p>
 &lt;p>今天无意用Edge的开发人员调试工具，就出现了如上图的&lt;mark>错误&lt;/mark>：&lt;code>Response should include 'x-content-type-options' header.&lt;/code>&lt;/p>
 &lt;h3 id="错误提示">错误提示：&lt;/h3>
 &lt;table>
@@ -63,7 +63,7 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a61717;background-color:#e3d2d2"> x-vercel-cache: HIT
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a61717;background-color:#e3d2d2"> x-vercel-id: hnd1:hnd1::pkqmc-1652872795296-e898f56a2777
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="footnotes" role="doc-endnotes">
-&lt;hr>
+&lt;hr />
 &lt;ol>
 &lt;li id="fn:1">
 &lt;p>&lt;a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options" title="MDN Web Docs">X-Content-Type-Options - HTTP | MDN&lt;/a> - Mozilla Developer Network&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
@@ -84,6 +84,6 @@
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>之后就可以在线编辑，增加，上传，发布 &lt;code>Hugo&lt;/code>命令，然后直接用 Gitlab 自带的Push，就可以了。当然，前提是你得绑定下面说的 &lt;a href="https://vercel.com" title="Develop. Preview. Ship. For the best frontend teams – Vercel">Vercel&lt;/a>&lt;/p>
 &lt;h3 id="使用vercel">使用Vercel&lt;/h3>
 &lt;p>网上教程太多，不多说啦，绑定你的 &lt;a href="https://gitlab.com/" title="Gitlab">Gitlab&lt;/a> 即可。支持 &lt;strong>“HTTPS”&lt;/strong> ，支持 &lt;strong>“Hugo”&lt;/strong> 指定版本，支持 &lt;strong>多域名绑定&lt;/strong> ，支持 &lt;strong>域名跳转&lt;/strong> ，谁用谁知道。
-&lt;img src="https://zhu8.net/images/posts/Vercel.png" alt="Vervel 界面" title="Vercel 界面">&lt;/p>
+&lt;img src="https://zhu8.net/images/posts/Vercel.png" alt="Vervel 界面" title="Vercel 界面" />&lt;/p>
 &lt;h3 id="结语">结语&lt;/h3>
 &lt;p>经过以上部署之后，你只需要购买域名，其他的，&lt;strong>全部交给云&lt;/strong> 吧，而且，&lt;strong>全免费&lt;/strong> 哦！完美，安心！祝你使用愉快！&lt;/p></description></item></channel></rss>

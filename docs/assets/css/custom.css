@@ -167,6 +167,7 @@ img.pure {
   box-shadow: none !important;
   --tw-shadow: none !important;
   margin: 0;
+  margin-bottom: 0.25em;
   padding: 0;
   display: inline;
 }
