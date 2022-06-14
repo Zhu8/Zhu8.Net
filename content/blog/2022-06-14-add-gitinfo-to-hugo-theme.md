@@ -14,9 +14,9 @@ description: 为本站的Hugo的模板添加GitInfo信息，方便编辑，并�
 toc: true
 ---
 
-为本站的==Hugo==的模板添加`GitInfo`信息，方便编辑，并能够显示最后编辑时间==LastMod==，对应的`Commit`以及托管在`GitHub`上面的`MarkDown`文件的源码。主要的变动，需要在以下几个文件着手：
+为本站的**Hugo**的模板添加`GitInfo`信息，方便编辑，并能够显示最后编辑时间**LastMod**，对应的`Commit`以及托管在`GitHub`上面的`MarkDown`文件的源码。主要的变动，需要在以下几个文件着手：
 
-## config.toml
+## 设置`config.toml`
 
 在`config.toml`文件里面，有两处需要编辑的地方:
 
@@ -45,9 +45,9 @@ toc: true
     ```
 
 
-## `Themes` 文件夹内的文件
+## 更新`Themes`文件夹
 
-### 修改 HTML 模版
+### 修改`HTML`模版
 
 首先需要在你的`Themes`文件夹里面，增加专属模版：`post-gitinfo.html`:
 
@@ -72,15 +72,15 @@ toc: true
 {{ end }}
 ```
 
-在你需要的地方，调用它出来，可能是`single.html`，也可能是其他的分模版，比如我的在==partials==下的`page-footer.html`模版里：
+在你需要的地方，调用它出来，可能是`single.html`，也可能是其他的分模版，比如我的在 **partials** 下的`page-footer.html`模版里：
 
 ```html
 {{ partial "post-gitinfo.html" . }}
 ```
 
-### 增加 CSS 标记 ID
+### 增加`CSS`标记`ID`
 
-为了更好的自定义，在上述 HTML 文档中，增加了一个 DIV 的 ID 叫做`gitinfo`，你需要在`CSS`文件里面定义一下：
+为了更好的自定义，在上述 HTML 文档中，增加了一个 **DIV** 的 **ID** 叫做`gitinfo`，你需要在`CSS`文件里面定义一下：
 
 ```css
 #gitinfo {
@@ -92,4 +92,4 @@ toc: true
 
 ## 呈现
 
-最后，就呈现出如我文章末尾右侧所现的==效果==啦！Enjoy~~
+最后，就呈现出如我文章末尾右侧所现的**效果**啦！Enjoy~~

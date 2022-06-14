@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>立占 | Site on 猪八的网：浮生志</title><link>https://zhu8.net/categories/%E7%AB%8B%E5%8D%A0-site/</link><description>Recent content in 立占 | Site on 猪八的网：浮生志</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Zhu8.Net 🚀 [&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">CC BY-SA&lt;/a>]</copyright><lastBuildDate>Tue, 14 Jun 2022 14:56:10 +0800</lastBuildDate><atom:link href="https://zhu8.net/categories/%E7%AB%8B%E5%8D%A0-site/index.xml" rel="self" type="application/rss+xml"/><item><title>为Hugo站点模板添加GitInfo信息</title><link>https://zhu8.net/blog/2022/06/add-gitinfo-to-hugo-theme.html</link><pubDate>Tue, 14 Jun 2022 14:56:10 +0800</pubDate><guid>https://zhu8.net/blog/2022/06/add-gitinfo-to-hugo-theme.html</guid><description>&lt;p>为本站的==Hugo==的模板添加&lt;code>GitInfo&lt;/code>信息，方便编辑，并能够显示最后编辑时间==LastMod==，对应的&lt;code>Commit&lt;/code>以及托管在&lt;code>GitHub&lt;/code>上面的&lt;code>MarkDown&lt;/code>文件的源码。主要的变动，需要在以下几个文件着手：&lt;/p>
-&lt;h2 id="configtoml">config.toml&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>立占 | Site on 猪八的网：浮生志</title><link>https://zhu8.net/categories/%E7%AB%8B%E5%8D%A0-site/</link><description>Recent content in 立占 | Site on 猪八的网：浮生志</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Zhu8.Net 🚀 [&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">CC BY-SA&lt;/a>]</copyright><lastBuildDate>Tue, 14 Jun 2022 14:56:10 +0800</lastBuildDate><atom:link href="https://zhu8.net/categories/%E7%AB%8B%E5%8D%A0-site/index.xml" rel="self" type="application/rss+xml"/><item><title>为Hugo站点模板添加GitInfo信息</title><link>https://zhu8.net/blog/2022/06/add-gitinfo-to-hugo-theme.html</link><pubDate>Tue, 14 Jun 2022 14:56:10 +0800</pubDate><guid>https://zhu8.net/blog/2022/06/add-gitinfo-to-hugo-theme.html</guid><description>&lt;p>为本站的&lt;strong>Hugo&lt;/strong>的模板添加&lt;code>GitInfo&lt;/code>信息，方便编辑，并能够显示最后编辑时间&lt;strong>LastMod&lt;/strong>，对应的&lt;code>Commit&lt;/code>以及托管在&lt;code>GitHub&lt;/code>上面的&lt;code>MarkDown&lt;/code>文件的源码。主要的变动，需要在以下几个文件着手：&lt;/p>
+&lt;h2 id="设置configtoml">设置&lt;code>config.toml&lt;/code>&lt;/h2>
 &lt;p>在&lt;code>config.toml&lt;/code>文件里面，有两处需要编辑的地方:&lt;/p>
 &lt;ol>
 &lt;li>
@@ -23,8 +23,8 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> editText = &lt;span style="color:#d14">&amp;#34;Edit Me?&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
 &lt;/ol>
-&lt;h2 id="themes-文件夹内的文件">&lt;code>Themes&lt;/code> 文件夹内的文件&lt;/h2>
-&lt;h3 id="修改-html-模版">修改 HTML 模版&lt;/h3>
+&lt;h2 id="更新themes文件夹">更新&lt;code>Themes&lt;/code>文件夹&lt;/h2>
+&lt;h3 id="修改html模版">修改&lt;code>HTML&lt;/code>模版&lt;/h3>
 &lt;p>首先需要在你的&lt;code>Themes&lt;/code>文件夹里面，增加专属模版：&lt;code>post-gitinfo.html&lt;/code>:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>{{- $path := &amp;#34;&amp;#34; -}}
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{- with .File -}}
@@ -44,17 +44,17 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {{ end }}
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {{ end }}
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{ end }}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>在你需要的地方，调用它出来，可能是&lt;code>single.html&lt;/code>，也可能是其他的分模版，比如我的在==partials==下的&lt;code>page-footer.html&lt;/code>模版里：&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>在你需要的地方，调用它出来，可能是&lt;code>single.html&lt;/code>，也可能是其他的分模版，比如我的在 &lt;strong>partials&lt;/strong> 下的&lt;code>page-footer.html&lt;/code>模版里：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>{{ partial &amp;#34;post-gitinfo.html&amp;#34; . }}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="增加-css-标记-id">增加 CSS 标记 ID&lt;/h3>
-&lt;p>为了更好的自定义，在上述 HTML 文档中，增加了一个 DIV 的 ID 叫做&lt;code>gitinfo&lt;/code>，你需要在&lt;code>CSS&lt;/code>文件里面定义一下：&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="增加css标记id">增加&lt;code>CSS&lt;/code>标记&lt;code>ID&lt;/code>&lt;/h3>
+&lt;p>为了更好的自定义，在上述 HTML 文档中，增加了一个 &lt;strong>DIV&lt;/strong> 的 &lt;strong>ID&lt;/strong> 叫做&lt;code>gitinfo&lt;/code>，你需要在&lt;code>CSS&lt;/code>文件里面定义一下：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-css" data-lang="css">&lt;span style="display:flex;">&lt;span>#&lt;span style="color:#555">gitinfo&lt;/span> {
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">padding-top&lt;/span>: &lt;span style="color:#099">3&lt;/span>&lt;span style="color:#458;font-weight:bold">px&lt;/span>;
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">float&lt;/span>: &lt;span style="color:#000;font-weight:bold">right&lt;/span>;
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">display&lt;/span>: &lt;span style="color:#000;font-weight:bold">inline-block&lt;/span>;
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="呈现">呈现&lt;/h2>
-&lt;p>最后，就呈现出如我文章末尾右侧所现的==效果==啦！Enjoy~~&lt;/p></description></item><item><title>解决浏览器X-Content-Type-Options报错</title><link>https://zhu8.net/blog/2022/05/resolve-browser-x-content-type-options-error.html</link><pubDate>Tue, 17 May 2022 23:40:10 +0800</pubDate><guid>https://zhu8.net/blog/2022/05/resolve-browser-x-content-type-options-error.html</guid><description>&lt;p>&lt;img src="https://zhu8.net/images/posts/http-error.png" alt="HTTP-ERROR RESPONSE" />&lt;/p>
+&lt;p>最后，就呈现出如我文章末尾右侧所现的&lt;strong>效果&lt;/strong>啦！Enjoy~~&lt;/p></description></item><item><title>解决浏览器X-Content-Type-Options报错</title><link>https://zhu8.net/blog/2022/05/resolve-browser-x-content-type-options-error.html</link><pubDate>Tue, 17 May 2022 23:40:10 +0800</pubDate><guid>https://zhu8.net/blog/2022/05/resolve-browser-x-content-type-options-error.html</guid><description>&lt;p>&lt;img src="https://zhu8.net/images/posts/http-error.png" alt="HTTP-ERROR RESPONSE" />&lt;/p>
 &lt;p>今天无意用Edge的开发人员调试工具，就出现了如上图的&lt;mark>错误&lt;/mark>：&lt;code>Response should include 'x-content-type-options' header.&lt;/code>&lt;/p>
 &lt;h3 id="错误提示">错误提示&lt;/h3>
 &lt;table>
