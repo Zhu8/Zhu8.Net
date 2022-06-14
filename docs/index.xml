@@ -1,6 +1,62 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>猪八的网：浮生志</title><link>https://zhu8.net/</link><description>Recent content on 猪八的网：浮生志</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Zhu8.Net 🚀 [&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">CC BY-SA&lt;/a>]</copyright><lastBuildDate>Tue, 17 May 2022 23:40:10 +0800</lastBuildDate><atom:link href="https://zhu8.net/index.xml" rel="self" type="application/rss+xml"/><item><title>解决浏览器X-Content-Type-Options报错</title><link>https://zhu8.net/blog/2022/05/resolve-browser-x-content-type-options-error.html</link><pubDate>Tue, 17 May 2022 23:40:10 +0800</pubDate><guid>https://zhu8.net/blog/2022/05/resolve-browser-x-content-type-options-error.html</guid><description>&lt;p>&lt;img src="https://zhu8.net/images/posts/http-error.png" alt="HTTP-ERROR RESPONSE" />&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>猪八的网：浮生志</title><link>https://zhu8.net/</link><description>Recent content on 猪八的网：浮生志</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Zhu8.Net 🚀 [&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">CC BY-SA&lt;/a>]</copyright><lastBuildDate>Tue, 14 Jun 2022 14:56:10 +0800</lastBuildDate><atom:link href="https://zhu8.net/index.xml" rel="self" type="application/rss+xml"/><item><title>为Hugo站点模板添加GitInfo信息</title><link>https://zhu8.net/blog/2022/06/add-gitinfo-to-hugo-theme.html</link><pubDate>Tue, 14 Jun 2022 14:56:10 +0800</pubDate><guid>https://zhu8.net/blog/2022/06/add-gitinfo-to-hugo-theme.html</guid><description>&lt;p>为本站的==Hugo==的模板添加&lt;code>GitInfo&lt;/code>信息，方便编辑，并能够显示最后编辑时间==LastMod==，对应的&lt;code>Commit&lt;/code>以及托管在&lt;code>GitHub&lt;/code>上面的&lt;code>MarkDown&lt;/code>文件的源码。主要的变动，需要在以下几个文件着手：&lt;/p>
+&lt;h2 id="configtoml">config.toml&lt;/h2>
+&lt;p>在&lt;code>config.toml&lt;/code>文件里面，有两处需要编辑的地方:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>启用&lt;code>GitInfo&lt;/code>:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>enableGitInfo = &lt;span style="color:#000;font-weight:bold">true&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>在 params 里面增加以下要素备用：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>[params]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> enableGitInfo = &lt;span style="color:#000;font-weight:bold">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> gitRepo = &lt;span style="color:#d14">&amp;#34;https://github.com/zhu8/zhu8.net&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># 是否开启&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> enablePostGitInfo = &lt;span style="color:#000;font-weight:bold">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> displayPostGitInfo = &lt;span style="color:#000;font-weight:bold">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># 说明：文章的 Front Matter 中的 `gitinfo`&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> repoURL = &lt;span style="color:#d14">&amp;#34;https://github.com/YOUR-USER-NAME/YOUR-REPO-NAME/blob/master&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> repoEditURL = &lt;span style="color:#d14">&amp;#34;https://github.com/YOUR-USER-NAME/YOUR-REPO-NAME/edit/master&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> displayRAW = &lt;span style="color:#000;font-weight:bold">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> RAWText = &lt;span style="color:#d14">&amp;#34;MkDn&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> displayEditLink = &lt;span style="color:#000;font-weight:bold">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> editText = &lt;span style="color:#d14">&amp;#34;Edit Me?&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;/ol>
+&lt;h2 id="themes-文件夹内的文件">&lt;code>Themes&lt;/code> 文件夹内的文件&lt;/h2>
+&lt;h3 id="修改-html-模版">修改 HTML 模版&lt;/h3>
+&lt;p>首先需要在你的&lt;code>Themes&lt;/code>文件夹里面，增加专属模版：&lt;code>post-gitinfo.html&lt;/code>:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>{{- $path := &amp;#34;&amp;#34; -}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{- with .File -}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {{- $path = .Path -}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{- else -}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {{- $path = .Path -}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{- end -}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{ if .GitInfo }}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {{ if and .Site.Params.enablePostGitInfo (.Params.gitinfo | default .Site.Params.displayPostGitInfo) }}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {{ if .Site.Params.displayEditLink }}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {{ if not .Lastmod.IsZero }}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#000080">div&lt;/span> &lt;span style="color:#008080">id&lt;/span>&lt;span style="color:#000;font-weight:bold">=&lt;/span>&lt;span style="color:#d14">&amp;#34;gitinfo&amp;#34;&lt;/span> &lt;span style="color:#008080">class&lt;/span>&lt;span style="color:#000;font-weight:bold">=&lt;/span>&lt;span style="color:#d14">&amp;#34;a-gray text-sm text-gray-500 leading-tight pb-6&amp;#34;&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {{ with .Site.Params.repoEditURL }}{{ $contentDir := (cond $.Site.IsMultiLingual (printf `/%s/` $.Site.Params.contentDir) &amp;#34;/content/&amp;#34;) }}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#000080">a&lt;/span> &lt;span style="color:#008080">href&lt;/span>&lt;span style="color:#000;font-weight:bold">=&lt;/span>&lt;span style="color:#d14">&amp;#34;{{ . }}{{ $contentDir }}{{ replace $path &amp;#34;&lt;/span>&lt;span style="color:#a61717;background-color:#e3d2d2">\\&amp;#34;&lt;/span> &lt;span style="color:#a61717;background-color:#e3d2d2">&amp;#34;/&amp;#34;&lt;/span> &lt;span style="color:#a61717;background-color:#e3d2d2">}}&amp;#34;&lt;/span> &lt;span style="color:#008080">target&lt;/span>&lt;span style="color:#000;font-weight:bold">=&lt;/span>&lt;span style="color:#d14">&amp;#34;_blank&amp;#34;&lt;/span> &lt;span style="color:#008080">rel&lt;/span>&lt;span style="color:#000;font-weight:bold">=&lt;/span>&lt;span style="color:#d14">&amp;#34;nofollow noopener noreferrer&amp;#34;&lt;/span> &lt;span style="color:#008080">title&lt;/span>&lt;span style="color:#000;font-weight:bold">=&lt;/span>&lt;span style="color:#d14">&amp;#34;Edit Markdown File (Self Use Only!)&amp;#34;&lt;/span>&amp;gt;&amp;lt;&lt;span style="color:#000080">i&lt;/span> &lt;span style="color:#008080">class&lt;/span>&lt;span style="color:#000;font-weight:bold">=&lt;/span>&lt;span style="color:#d14">&amp;#34;fas fa-pencil-alt&amp;#34;&lt;/span>&amp;gt;&amp;lt;/&lt;span style="color:#000080">i&lt;/span>&amp;gt;&amp;lt;/&lt;span style="color:#000080">a&lt;/span>&amp;gt;{{ end }}LastMod:&amp;lt;&lt;span style="color:#000080">em&lt;/span>&amp;gt;{{ .Page.Lastmod.Format &amp;#34;2006-01-02&amp;#34; }}&amp;lt;/&lt;span style="color:#000080">em&lt;/span>&amp;gt;&lt;span style="color:#800080">&amp;amp;nbsp;&lt;/span> {{ if .Site.Params.displayRAW }}{{ with .Site.Params.repoURL }}{{ $contentDir := (cond $.Site.IsMultiLingual (printf `/%s/` $.Site.Params.contentDir) &amp;#34;/content/&amp;#34;) }}[&amp;lt;&lt;span style="color:#000080">a&lt;/span> &lt;span style="color:#008080">href&lt;/span>&lt;span style="color:#000;font-weight:bold">=&lt;/span>&lt;span style="color:#d14">&amp;#34;{{ . }}{{ $contentDir }}{{ replace $path &amp;#34;&lt;/span>&lt;span style="color:#a61717;background-color:#e3d2d2">\\&amp;#34;&lt;/span> &lt;span style="color:#a61717;background-color:#e3d2d2">&amp;#34;/&amp;#34;&lt;/span> &lt;span style="color:#a61717;background-color:#e3d2d2">}}&amp;#34;&lt;/span> &lt;span style="color:#008080">target&lt;/span>&lt;span style="color:#000;font-weight:bold">=&lt;/span>&lt;span style="color:#d14">&amp;#34;_blank&amp;#34;&lt;/span> &lt;span style="color:#008080">rel&lt;/span>&lt;span style="color:#000;font-weight:bold">=&lt;/span>&lt;span style="color:#d14">&amp;#34;nofollow noopener noreferrer&amp;#34;&lt;/span> &lt;span style="color:#008080">title&lt;/span>&lt;span style="color:#000;font-weight:bold">=&lt;/span>&lt;span style="color:#d14">&amp;#34;RAW Post in Markdown File.&amp;#34;&lt;/span>&amp;gt;{{- $.Site.Params.RAWText -}}&amp;lt;/&lt;span style="color:#000080">a&lt;/span>&amp;gt;]{{ end }}{{ end }}{{- if $.Site.Params.gitRepo -}}{{- with $.GitInfo -}}[&amp;lt;&lt;span style="color:#000080">a&lt;/span> &lt;span style="color:#008080">class&lt;/span>&lt;span style="color:#000;font-weight:bold">=&lt;/span>&lt;span style="color:#d14">&amp;#34;git-hash&amp;#34;&lt;/span> &lt;span style="color:#008080">href&lt;/span>&lt;span style="color:#000;font-weight:bold">=&lt;/span>&lt;span style="color:#d14">&amp;#34;{{ printf `%v/commit/%v` $.Site.Params.gitRepo .Hash }}&amp;#34;&lt;/span> &lt;span style="color:#008080">target&lt;/span>&lt;span style="color:#000;font-weight:bold">=&lt;/span>&lt;span style="color:#d14">&amp;#34;_blank&amp;#34;&lt;/span> &lt;span style="color:#008080">title&lt;/span>&lt;span style="color:#000;font-weight:bold">=&lt;/span>&lt;span style="color:#d14">&amp;#34;Commit by {{ .AuthorName }}: {{ .Subject }}&amp;#34;&lt;/span>&amp;gt;&amp;lt;&lt;span style="color:#000080">i&lt;/span> &lt;span style="color:#008080">class&lt;/span>&lt;span style="color:#000;font-weight:bold">=&lt;/span>&lt;span style="color:#d14">&amp;#34;fas fa-hashtag fa-fw&amp;#34;&lt;/span>&amp;gt;&amp;lt;/&lt;span style="color:#000080">i&lt;/span>&amp;gt;{{- .AbbreviatedHash -}}&amp;lt;/&lt;span style="color:#000080">a&lt;/span>&amp;gt;]{{- end -}}{{- end -}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;/&lt;span style="color:#000080">div&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {{ end }}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {{ end }}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {{ end }}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{ end }}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>在你需要的地方，调用它出来，可能是&lt;code>single.html&lt;/code>，也可能是其他的分模版，比如我的在==partials==下的&lt;code>page-footer.html&lt;/code>模版里：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>{{ partial &amp;#34;post-gitinfo.html&amp;#34; . }}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="增加-css-标记-id">增加 CSS 标记 ID&lt;/h3>
+&lt;p>为了更好的自定义，在上述 HTML 文档中，增加了一个 DIV 的 ID 叫做&lt;code>gitinfo&lt;/code>，你需要在&lt;code>CSS&lt;/code>文件里面定义一下：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-css" data-lang="css">&lt;span style="display:flex;">&lt;span>#&lt;span style="color:#555">gitinfo&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">padding-top&lt;/span>: &lt;span style="color:#099">3&lt;/span>&lt;span style="color:#458;font-weight:bold">px&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">float&lt;/span>: &lt;span style="color:#000;font-weight:bold">right&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">display&lt;/span>: &lt;span style="color:#000;font-weight:bold">inline-block&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="呈现">呈现&lt;/h2>
+&lt;p>最后，就呈现出如我文章末尾右侧所现的==效果==啦！Enjoy~~&lt;/p></description></item><item><title>解决浏览器X-Content-Type-Options报错</title><link>https://zhu8.net/blog/2022/05/resolve-browser-x-content-type-options-error.html</link><pubDate>Tue, 17 May 2022 23:40:10 +0800</pubDate><guid>https://zhu8.net/blog/2022/05/resolve-browser-x-content-type-options-error.html</guid><description>&lt;p>&lt;img src="https://zhu8.net/images/posts/http-error.png" alt="HTTP-ERROR RESPONSE" />&lt;/p>
 &lt;p>今天无意用Edge的开发人员调试工具，就出现了如上图的&lt;mark>错误&lt;/mark>：&lt;code>Response should include 'x-content-type-options' header.&lt;/code>&lt;/p>
-&lt;h3 id="错误提示">错误提示：&lt;/h3>
+&lt;h3 id="错误提示">错误提示&lt;/h3>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -20,8 +76,8 @@
 &lt;p>The &lt;em>&lt;strong>X-Content-Type-Options&lt;/strong>&lt;/em> response &lt;strong>HTTP&lt;/strong> header is a marker used by the server to indicate that the &lt;abbr title="Multipurpose Internet Mail Extensions">&lt;strong>MIME&lt;/strong>&lt;/abbr> types advertised in the &lt;strong>Content-Type&lt;/strong> headers should be followed and not be changed. The header allows you to avoid &lt;strong>MIME type&lt;/strong> sniffing by saying that the MIME types are deliberately configured.&lt;/p>
 &lt;p>&lt;cite>— via &lt;strong>MDN&lt;/strong> &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/cite>&lt;/p>
 &lt;/blockquote>
-&lt;h3 id="解决方法">解决方法：&lt;/h3>
-&lt;p>在你的Github或者Gitlab的库首页，增加文件：&lt;code>vercel.json&lt;/code> &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h3 id="解决方法">解决方法&lt;/h3>
+&lt;p>在你的Github的库首页，增加文件：&lt;code>vercel.json&lt;/code> &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-json" data-lang="json">&lt;span style="display:flex;">&lt;span>{
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000080">&amp;#34;headers&amp;#34;&lt;/span>: [
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
@@ -35,8 +91,8 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ]
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>然后，继续按照我&lt;a href="https://zhu8.net/blog/2022/04/make-a-whole-cloud-site-with-hugo.html" title="Hugo搭建完全云托管个人网站">上一篇文字&lt;/a>的方法，去更新和发布就好啦！&lt;/p>
-&lt;h3 id="最终成果">最终成果：&lt;/h3>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>然后，继续按照我&lt;a href="https://zhu8.net/blog/2022/04/make-a-entire-cloud-site-with-hugo.html" title="Hugo搭建完全云托管个人网站">上一篇文字&lt;/a>的方法，去更新和发布就好啦！&lt;/p>
+&lt;h3 id="最终成果">最终成果&lt;/h3>
 &lt;p>最后，得到如下的响应头，可以看到，已经有了&lt;code>X-Content-Type-Options: nosniff&lt;/code>：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-http" data-lang="http">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a61717;background-color:#e3d2d2"> 请求 URL: https://zhu8.net/
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a61717;background-color:#e3d2d2"> 请求方法: GET

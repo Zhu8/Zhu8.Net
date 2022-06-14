@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>HTTP on 猪八的网：浮生志</title><link>https://zhu8.net/tags/http/</link><description>Recent content in HTTP on 猪八的网：浮生志</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Zhu8.Net 🚀 [&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">CC BY-SA&lt;/a>]</copyright><lastBuildDate>Tue, 17 May 2022 23:40:10 +0800</lastBuildDate><atom:link href="https://zhu8.net/tags/http/index.xml" rel="self" type="application/rss+xml"/><item><title>解决浏览器X-Content-Type-Options报错</title><link>https://zhu8.net/blog/2022/05/resolve-browser-x-content-type-options-error.html</link><pubDate>Tue, 17 May 2022 23:40:10 +0800</pubDate><guid>https://zhu8.net/blog/2022/05/resolve-browser-x-content-type-options-error.html</guid><description>&lt;p>&lt;img src="https://zhu8.net/images/posts/http-error.png" alt="HTTP-ERROR RESPONSE" />&lt;/p>
 &lt;p>今天无意用Edge的开发人员调试工具，就出现了如上图的&lt;mark>错误&lt;/mark>：&lt;code>Response should include 'x-content-type-options' header.&lt;/code>&lt;/p>
-&lt;h3 id="错误提示">错误提示：&lt;/h3>
+&lt;h3 id="错误提示">错误提示&lt;/h3>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -20,8 +20,8 @@
 &lt;p>The &lt;em>&lt;strong>X-Content-Type-Options&lt;/strong>&lt;/em> response &lt;strong>HTTP&lt;/strong> header is a marker used by the server to indicate that the &lt;abbr title="Multipurpose Internet Mail Extensions">&lt;strong>MIME&lt;/strong>&lt;/abbr> types advertised in the &lt;strong>Content-Type&lt;/strong> headers should be followed and not be changed. The header allows you to avoid &lt;strong>MIME type&lt;/strong> sniffing by saying that the MIME types are deliberately configured.&lt;/p>
 &lt;p>&lt;cite>— via &lt;strong>MDN&lt;/strong> &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/cite>&lt;/p>
 &lt;/blockquote>
-&lt;h3 id="解决方法">解决方法：&lt;/h3>
-&lt;p>在你的Github或者Gitlab的库首页，增加文件：&lt;code>vercel.json&lt;/code> &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h3 id="解决方法">解决方法&lt;/h3>
+&lt;p>在你的Github的库首页，增加文件：&lt;code>vercel.json&lt;/code> &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-json" data-lang="json">&lt;span style="display:flex;">&lt;span>{
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000080">&amp;#34;headers&amp;#34;&lt;/span>: [
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
@@ -35,8 +35,8 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ]
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>然后，继续按照我&lt;a href="https://zhu8.net/blog/2022/04/make-a-whole-cloud-site-with-hugo.html" title="Hugo搭建完全云托管个人网站">上一篇文字&lt;/a>的方法，去更新和发布就好啦！&lt;/p>
-&lt;h3 id="最终成果">最终成果：&lt;/h3>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>然后，继续按照我&lt;a href="https://zhu8.net/blog/2022/04/make-a-entire-cloud-site-with-hugo.html" title="Hugo搭建完全云托管个人网站">上一篇文字&lt;/a>的方法，去更新和发布就好啦！&lt;/p>
+&lt;h3 id="最终成果">最终成果&lt;/h3>
 &lt;p>最后，得到如下的响应头，可以看到，已经有了&lt;code>X-Content-Type-Options: nosniff&lt;/code>：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-http" data-lang="http">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a61717;background-color:#e3d2d2"> 请求 URL: https://zhu8.net/
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a61717;background-color:#e3d2d2"> 请求方法: GET
