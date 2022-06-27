@@ -243,11 +243,11 @@ hr.summary {
 }
 
 a.heading.font-cursive.icon {
-  padding-right: 2.25rem;
-  background-image: url("/images/sites/dora-bamboo.png");
-  background-position: bottom right;
+  padding-left: 55px;
+  background-image: url("/images/sites/dora-dragonfly.png");
+  background-position: bottom left;
   background-repeat: no-repeat;
-  background-size: 2.25rem;
+  background-size: 55px 37px;
 }
 
 #random-images {
