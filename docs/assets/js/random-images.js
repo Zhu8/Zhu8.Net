@@ -1,6 +1,6 @@
 (function() {
     "use strict";
-    
+
     var Images = [
         '/images/sites/random/dora-fly.png',
         '/images/sites/random/dora-cast-min.png',
@@ -18,6 +18,7 @@
         '/images/sites/random/dora-two.png',
         '/images/sites/random/dora-sailing.png',
         '/images/sites/random/dora-mantel.png',
+        '/images/sites/random/dora-lookback.png',
         '/images/sites/random/dora-family.png'
     ];
 
