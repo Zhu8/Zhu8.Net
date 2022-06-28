@@ -29,7 +29,7 @@ enableGitInfo = true
     style = 'github'
     tabWidth = 4
   [markup.tableOfContents]
-    endLevel = 3
+    endLevel = 5
     ordered = false
     startLevel = 2
 
