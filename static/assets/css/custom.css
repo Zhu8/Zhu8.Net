@@ -243,11 +243,11 @@ hr.summary {
 }
 
 a.heading.font-cursive.icon {
-  padding-left: 55px;
+  padding-left: 2.75rem;
   background-image: url("/images/sites/dora-dragonfly.png");
   background-position: bottom left;
   background-repeat: no-repeat;
-  background-size: 55px 37px;
+  background-size: 2.75rem;
 }
 
 #random-images {
