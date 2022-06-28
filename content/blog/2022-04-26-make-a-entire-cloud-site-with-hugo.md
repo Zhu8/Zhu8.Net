@@ -6,7 +6,7 @@ date: "2022-04-26T23:00:10+08:00"
 lastmod: "2022-04-26T23:00:10+08:00"
 tags:
 - Hugo
-- Gitlab
+- Github
 - Gitpod
 - Vercel
 featured_image: /images/posts/Vercel.png
