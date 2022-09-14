@@ -128,7 +128,21 @@
 &lt;p>&lt;a href="https://blakey.co/blog/setting-up-security-headers-with-vercel" title="Setting up Security Headers with Vercel | Dave Blakey">Setting up Security Headers with Vercel&lt;/a> - Dave Blakey&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></description></item><item><title>使用BitBucket和FTPloy私有Jekyll源码</title><link>https://zhu8.net/blog/2014/07/use-bitbucket-and-ftploy-to-private-jekyll.html</link><pubDate>Sun, 27 Jul 2014 13:23:33 +0800</pubDate><guid>https://zhu8.net/blog/2014/07/use-bitbucket-and-ftploy-to-private-jekyll.html</guid><description>&lt;h3 id="为何用bitbucketftploy">为何用BitBucket&amp;amp;FTPloy？&lt;/h3>
+&lt;/div></description></item><item><title>Hugo搭建完全云托管个人网站</title><link>https://zhu8.net/blog/2022/04/make-a-entire-cloud-site-with-hugo.html</link><pubDate>Tue, 26 Apr 2022 23:00:10 +0800</pubDate><guid>https://zhu8.net/blog/2022/04/make-a-entire-cloud-site-with-hugo.html</guid><description>&lt;h3 id="为何用hugo">为何用Hugo&lt;/h3>
+&lt;p>网站使用&lt;a href="https://gohugo.io/" title="Hugo is one of the most popular open-source static site generators.">Hugo&lt;/a>搭建，教程就不写了，网上太多了，放置在&lt;a href="https://github.com/" title="Github">Github&lt;/a>上储存源码属于公开的访问，而且经常被 &lt;del>&lt;strong>土啬&lt;/strong>&lt;/del> ，因此，处于安全考虑，还是放到私有或者小众一些的地方吧。&lt;/p>
+&lt;h3 id="为何使用gitlab--github">为何使用&lt;del>Gitlab&lt;/del> / &lt;strong>GitHub&lt;/strong>&lt;/h3>
+&lt;p>Github私有源码的话，是需要&lt;strong>美刀的&lt;/strong>，作为小站长，一个虚拟空间的钱还是要省的，所以，去注册&lt;a href="https://gitlab.com/" title="Gitlab">Gitlab&lt;/a>吧：）注册完成之后，创建一个仓库，上传你所有的Hugo源代码。当然，也可以按右上角的&lt;strong>import&lt;/strong>导入你的Github仓库。———— &lt;em>Updated on 2022/06/09:在&lt;a href="https://github.com/zhu8">GitHub&lt;/a>完全可以访问的情况下，我又默默的换回了GitHub。就是这么 &lt;strong>出尔反尔&lt;/strong> 。&lt;/em>&lt;/p>
+&lt;h3 id="使用gitpod">使用Gitpod&lt;/h3>
+&lt;p>&lt;a href="https://gitpod.io/" title="Gitpod Web IDE">Gitpod&lt;/a>是一个Web IDE的云工具，可以在线编辑和同步你的源码，包括在线安装Hugo程序，我的安装包如下：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt-get update
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>wget https://github.com/gohugoio/hugo/releases/download/v0.97.3/hugo_extended_0.97.3_Linux-64bit.deb
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo dpkg -i hugo_extended_0.97.3_Linux-64bit.deb
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>之后就可以在线编辑，增加，上传，发布 &lt;code>Hugo&lt;/code>命令，然后直接用 Gitlab 自带的Push，就可以了。当然，前提是你得绑定下面说的 &lt;a href="https://vercel.com" title="Develop. Preview. Ship. For the best frontend teams – Vercel">Vercel&lt;/a>&lt;/p>
+&lt;h3 id="使用vercel">使用Vercel&lt;/h3>
+&lt;p>网上教程太多，不多说啦，绑定你的 &lt;a href="https://gitlab.com/" title="Gitlab">Gitlab&lt;/a> 即可。支持 &lt;strong>“HTTPS”&lt;/strong> ，支持 &lt;strong>“Hugo”&lt;/strong> 指定版本，支持 &lt;strong>多域名绑定&lt;/strong> ，支持 &lt;strong>域名跳转&lt;/strong> ，谁用谁知道。
+&lt;img src="https://zhu8.net/images/posts/Vercel.png" alt="Vervel 界面" title="Vercel 界面" />&lt;/p>
+&lt;h3 id="结语">结语&lt;/h3>
+&lt;p>经过以上部署之后，你只需要购买域名，其他的，&lt;strong>全部交给云&lt;/strong> 吧，而且，&lt;strong>全免费&lt;/strong> 哦！完美，安心！祝你使用愉快！&lt;/p></description></item><item><title>使用BitBucket和FTPloy私有Jekyll源码</title><link>https://zhu8.net/blog/2014/07/use-bitbucket-and-ftploy-to-private-jekyll.html</link><pubDate>Sun, 27 Jul 2014 13:23:33 +0800</pubDate><guid>https://zhu8.net/blog/2014/07/use-bitbucket-and-ftploy-to-private-jekyll.html</guid><description>&lt;h3 id="为何用bitbucketftploy">为何用BitBucket&amp;amp;FTPloy？&lt;/h3>
 &lt;p>网站使用&lt;a href="http://jekyllrb.com" title="Jekyll • Simple, blog-aware, static sites">Jekyll&lt;/a>建成之后，放置在&lt;a href="https://pages.github.com" title="Github Pages">Github Pages&lt;/a>的源码属于公开的访问，处于一些个人安全考虑，最重要的是放置在自己的FTP空间会相对安全一些，所以，我采用了支持私有源码的&lt;a href="https://bitbucket.org/" title="Bitbucket 由旧金山的Atlassian公司开发">BitBucket&lt;/a>作为Git仓库，并使用&lt;a href="https://ftploy.com" title="FTP Deploy">FTPloy&lt;/a>作为Deploy方案，实现了自动发布到个人FTP的目的。
 &lt;img src="https://zhu8.net/images/posts/FTPloy.png" alt="FTPloy" title="FTPloy" />&lt;/p>
 &lt;h4 id="注册并使用bitbucket">注册并使用BitBucket&lt;/h4>
