@@ -10,7 +10,7 @@
   <script>
     Waline.init({
       el:'#waline',
-      serverURL:'https://comm.zhu8.net',
+      serverURL:'http://waline-zhu8.vercel.app/',
       visitor:true,
       pageview:true,
       imageUploader:false,
@@ -20,11 +20,11 @@
       requiredMeta:['nick', 'mail'],
       gif:false,
       emoji:[
-      '{{ .Site.BaseURL }}/images/dora_gif/',
-      '{{ .Site.BaseURL }}/images/ani_dora/',
-      '{{ .Site.BaseURL }}/images/dora_emotion/',
-      '{{ .Site.BaseURL }}/images/dora_sticker/',
-      '{{ .Site.BaseURL }}/images/smilies/',      // 'https://unpkg.com/@waline/emojis@1.0.1/qq',
+      '{{ .Site.BaseURL }}images/dora_gif/',
+      '{{ .Site.BaseURL }}images/ani_dora/',
+      '{{ .Site.BaseURL }}images/dora_emotion/',
+      '{{ .Site.BaseURL }}images/dora_sticker/',
+      '{{ .Site.BaseURL }}images/smilies/',      // 'https://unpkg.com/@waline/emojis@1.0.1/qq',
     ],
     });
   </script>
