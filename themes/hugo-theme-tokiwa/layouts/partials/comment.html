@@ -7,12 +7,15 @@
 {{ if .Site.Params.enableWaline }}
 <div class="comments">
   <div id="waline"></div>
-  <script>
-    Waline.init({
-      el:'#waline',
-      serverURL:'https://waline-zhu8.vercel.app/',
+  <script type="module">
+    import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+
+    init({
+      el: '#waline',
+      serverURL: 'https://comm.zhu8.net',
       visitor:true,
       pageview:true,
+      comment: true,
       imageUploader:false,
       avatar:'robohash',
       uploadImage:false,
@@ -24,7 +27,7 @@
       '{{ .Site.BaseURL }}images/ani_dora/',
       '{{ .Site.BaseURL }}images/dora_emotion/',
       '{{ .Site.BaseURL }}images/dora_sticker/',
-      '{{ .Site.BaseURL }}images/smilies/',      // 'https://unpkg.com/@waline/emojis@1.0.1/qq',
+      '{{ .Site.BaseURL }}images/smilies/',
     ],
     });
   </script>
